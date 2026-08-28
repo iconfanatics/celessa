@@ -1,0 +1,3817 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_price": "#1c1d1d",
+    "color_savings_text": "#C20000",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_cart_dot": "#ff4f33",
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#0f0f0f",
+    "color_header": "#ffffff",
+    "color_header_text": "#000000",
+    "color_announcement": "#0f0f0f",
+    "color_announcement_text": "#ffffff",
+    "color_footer": "#ffffff",
+    "color_footer_text": "#000000",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#e6e6e6",
+    "color_image_text": "#ffffff",
+    "color_image_overlay": "#ffffff",
+    "color_image_overlay_opacity": 0,
+    "color_image_overlay_text_shadow": 0,
+    "type_header_font_family": "nunito_sans_n7",
+    "type_header_spacing": "0",
+    "type_header_base_size": 22,
+    "type_header_line_height": 1,
+    "type_header_capitalize": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "nunito_sans_n4",
+    "type_base_spacing": "0",
+    "type_base_size": 14,
+    "type_base_line_height": 1.6,
+    "type_body_align_text": true,
+    "type_navigation_style": "body",
+    "type_navigation_size": 15,
+    "type_navigation_capitalize": true,
+    "type_product_style": "body",
+    "type_collection_font": "body",
+    "type_collection_size": 18,
+    "button_style": "round-slight",
+    "icon_weight": "2px",
+    "icon_linecaps": "miter",
+    "product_save_type": "percent",
+    "vendor_enable": false,
+    "quick_shop_enable": true,
+    "quick_shop_text": "Quick view",
+    "product_grid_image_size": "natural",
+    "product_hover_image": true,
+    "enable_swatches": false,
+    "enable_product_reviews": true,
+    "collection_grid_style": "overlaid",
+    "collection_grid_shape": "square",
+    "collection_grid_image": "collection",
+    "collection_grid_text_align": "center",
+    "collection_grid_tint": "#000000",
+    "collection_grid_opacity": 10,
+    "collection_grid_gutter": true,
+    "cart_type": "drawer",
+    "cart_icon": "bag",
+    "cart_additional_buttons": true,
+    "cart_notes_enable": true,
+    "cart_terms_conditions_enable": false,
+    "social_facebook_link": "https://www.facebook.com/celessasoftclothing",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https://instagram.com/celessasoftclothing",
+    "social_youtube_link": "https://www.youtube.com/@celessasoftclothing8657",
+    "share_facebook": true,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "favicon": "shopify://shop_images/Favicon_Celessa.png",
+    "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
+    "checkout_logo_image": "shopify://shop_images/CelessaLogo1440x420-2-1024x299.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "sku_enable": true,
+    "quantity_enable": true,
+    "variant_type": "button",
+    "inventory_enable": true,
+    "inventory_threshold": 10,
+    "inventory_transfers_enable": false,
+    "product_zoom_enable": true,
+    "product_color_swatches": true,
+    "collection_color_swatches": false,
+    "product_content_1": "shipping-policies",
+    "product_content_2": "returns-refunds-policy",
+    "product_content_collapse_1": true,
+    "product_content_collapse_2": true,
+    "product_content_collapse_3": true,
+    "product_contact": false,
+    "product_contact_show_phone": false,
+    "reviews_layout": "expandable",
+    "breadcrumb": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1524770014057": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/1_d7597ae6-acfb-404b-a287-6a275d4534e7.png",
+              "logo-inverted": "shopify://shop_images/2_d84f8dbf-130e-4502-9b55-e7d86ada11a3.png",
+              "desktop_logo_width": 150,
+              "mobile_logo_width": 140
+            }
+          },
+          "de7752c6-a93d-4585-a84b-ed04968a2d16": {
+            "type": "announcement",
+            "settings": {
+              "text": "[First Purchase] EXTRA RM10 OFF",
+              "link_text": "(Code : CSC10OFF)",
+              "link": ""
+            }
+          },
+          "968cbef5-370d-4236-b355-79263b2e0079": {
+            "type": "announcement",
+            "settings": {
+              "text": "We ship across Malaysia & Singapore",
+              "link_text": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1524770014057",
+          "de7752c6-a93d-4585-a84b-ed04968a2d16",
+          "968cbef5-370d-4236-b355-79263b2e0079"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "mega_menu_images": true,
+          "main_menu_alignment": "left-center",
+          "header_style": "sticky",
+          "sticky_index": true,
+          "sticky_collection": false,
+          "announcement_compact": true,
+          "announcement_above_header": true,
+          "toolbar_menu": "",
+          "toolbar_social": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "714069ed-056e-412a-9017-dc72fc6ca351": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "faq-about-best-bra-and-panties-malaysia",
+              "container_width": 25
+            }
+          },
+          "1494301487049": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 25
+            }
+          },
+          "5e1835aa-091d-4c95-831c-985979337db3": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "media-career",
+              "container_width": 25
+            }
+          },
+          "0f774cca-d540-4f4d-a423-b5a29702886b": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "shipping-information",
+              "container_width": 25
+            }
+          },
+          "1494292487693": {
+            "type": "newsletter",
+            "settings": {
+              "show_footer_title": true,
+              "title": "JOIN NOW AND EARN REWARD",
+              "text": "<p>Join today and start earning Celessa Reward Points every time you shop.</p>",
+              "container_width": 25
+            }
+          },
+          "d8d8bb99-6b2e-475a-9e47-84575e7928fc": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": false,
+              "menu": "",
+              "container_width": 25
+            }
+          },
+          "c4c7ec49-d6b1-4359-8082-408b0bf10f1e": {
+            "type": "logo_social",
+            "disabled": true,
+            "settings": {
+              "logo": "shopify://shop_images/grab-pay-logo-A0CA65B6C4-seeklogo.com.png",
+              "desktop_logo_height": 50,
+              "container_width": 25
+            }
+          },
+          "57b8e7ae-9d71-49c1-a605-4921c098ce68": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": false,
+              "menu": "footer",
+              "container_width": 25
+            }
+          },
+          "ff8a9dd1-f238-432a-bf62-fbf585927c29": {
+            "type": "custom",
+            "disabled": true,
+            "settings": {
+              "show_footer_title": true,
+              "title": "Custom text",
+              "text": "<p>Add your own custom text here.</p>",
+              "container_width": 25
+            }
+          }
+        },
+        "block_order": [
+          "714069ed-056e-412a-9017-dc72fc6ca351",
+          "1494301487049",
+          "5e1835aa-091d-4c95-831c-985979337db3",
+          "0f774cca-d540-4f4d-a423-b5a29702886b",
+          "1494292487693",
+          "d8d8bb99-6b2e-475a-9e47-84575e7928fc",
+          "c4c7ec49-d6b1-4359-8082-408b0bf10f1e",
+          "57b8e7ae-9d71-49c1-a605-4921c098ce68",
+          "ff8a9dd1-f238-432a-bf62-fbf585927c29"
+        ],
+        "settings": {
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_payment_icons": true,
+          "show_copyright": true,
+          "copyright_text": ""
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "image_hero": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": true,
+          "blog_show_rss": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "blog_show_excerpt": false,
+          "blog_image_size": "wide"
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 30,
+          "popup_title": "",
+          "popup_text": "",
+          "close_text": "No thanks",
+          "enable_newsletter": false,
+          "button_label": "",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "1524769873765": {
+        "type": "slideshow",
+        "blocks": {
+          "image_4bWQqq": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify://products/curvy-scoop-push-up-seamless-strapless-bra",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify://shop_images/Mainpage_banner_46.png",
+              "focal_point": "center center"
+            }
+          },
+          "image_m4BtHA": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "top_subheading": "",
+              "title": "#1 Seamless Bra",
+              "title_size": 50,
+              "subheading": "Made to fit every body",
+              "link": "shopify://collections/seamless-bra-series",
+              "link_text": "FIND YOUR FIT",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify://shop_images/1_SEAMLESS_That_actually_fits_everybody_2.png",
+              "focal_point": "center center"
+            }
+          },
+          "fa8c042c-eb77-4fef-8cce-51d6ed32cc1a": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify://collections/new-in-sofit™-series",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-bottom horizontal-center",
+              "image": "shopify://shop_images/Mainpage_banner_38_d93fc97b-dadb-49a0-b2ad-98241bf613f0.png",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "image_4bWQqq",
+          "image_m4BtHA",
+          "fa8c042c-eb77-4fef-8cce-51d6ed32cc1a"
+        ],
+        "settings": {
+          "section_height": "100vh",
+          "mobile_height": "auto",
+          "parallax": false,
+          "style": "dots",
+          "autoplay": true,
+          "autoplay_speed": 6
+        }
+      },
+      "collection-header": {
+        "type": "collection-header",
+        "settings": {
+          "enable": true,
+          "collection_image_enable": false,
+          "parallax": false
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "recently-viewed": {
+        "type": "recently-viewed",
+        "settings": {
+          "show_section": true,
+          "recent_count": 5
+        }
+      },
+      "572c1a1a-9931-46fe-9543-953afcb80ea0": {
+        "type": "promo-grid",
+        "blocks": {
+          "29faaf31-13d7-4721-80ef-0748f79356af": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_20.png",
+              "link": "shopify://collections/panty-bundle",
+              "width": "100"
+            }
+          },
+          "image_M3QF4q": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_26.png",
+              "link": "shopify://collections/seamless-panty-1",
+              "width": "100"
+            }
+          },
+          "image_qfnRNK": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_22.png",
+              "link": "shopify://products/bare-seamless-hygiene-panties",
+              "width": "100"
+            }
+          },
+          "image_ryCn3B": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/28_ed11aef2-2f15-4676-9e33-5560e5745063.png",
+              "link": "shopify://collections/cny-panty-series",
+              "width": "100"
+            }
+          },
+          "image_DMHPFC": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/Main_Page_Banner_14.png",
+              "link": "shopify://collections/comfit-collection",
+              "width": "100"
+            }
+          },
+          "d166c15e-19b7-46da-b3ff-f1485772fbbf": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/6_fed60719-16a4-4c36-8128-c3f168801512.png",
+              "link": "shopify://products/bare-seamless-hygiene-panties",
+              "width": "50"
+            }
+          },
+          "9cf94eea-d234-4cbe-8039-cc7e489d566e": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/8_8215c274-6fc3-4549-acbb-47885dd0f792.png",
+              "link": "shopify://collections/seamless-panty-with-function",
+              "width": "50"
+            }
+          },
+          "banner_UWGCUJ": {
+            "type": "banner",
+            "disabled": true,
+            "settings": {
+              "heading": "No more wedgies, only perfect peach",
+              "text": "",
+              "link": "shopify://collections/cny-panty-series",
+              "label": "PANTY SERIES",
+              "color_tint": "#000000",
+              "color_tint_opacity": 4,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "29faaf31-13d7-4721-80ef-0748f79356af",
+          "image_M3QF4q",
+          "image_qfnRNK",
+          "image_ryCn3B",
+          "image_DMHPFC",
+          "d166c15e-19b7-46da-b3ff-f1485772fbbf",
+          "9cf94eea-d234-4cbe-8039-cc7e489d566e",
+          "banner_UWGCUJ"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "description_style": "full",
+          "social_enable": true,
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "collection-sidebar": {
+        "type": "collection-sidebar",
+        "blocks": {
+          "2eebed8f-43da-4d86-85ab-71ca16cc9620": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Waist Line",
+              "tag_list": "High Rise\nMid Rise\nLow Rise",
+              "collapsed": false
+            }
+          },
+          "0fbd071d-01a9-4a16-b0f9-7de90a216486": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Size",
+              "tag_list": "M\nL\nXL\nXXL",
+              "collapsed": false
+            }
+          },
+          "3dd21d46-3ae2-4095-91c6-55593fe88a12": {
+            "type": "color_group",
+            "settings": {
+              "title": "Color",
+              "tag_list": "Burgundy \nHeather grey \nGreen",
+              "collapsed": false
+            }
+          }
+        },
+        "block_order": [
+          "2eebed8f-43da-4d86-85ab-71ca16cc9620",
+          "0fbd071d-01a9-4a16-b0f9-7de90a216486",
+          "3dd21d46-3ae2-4095-91c6-55593fe88a12"
+        ],
+        "settings": {
+          "enable_sidebar": true,
+          "filter_style": "drawer",
+          "tags_combine": false,
+          "enable_sort": true
+        }
+      },
+      "collection-promotions": {
+        "type": "collection-promotions",
+        "blocks": {
+          "image_DhraU7": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "new-in-sofit™-series",
+              "image": "shopify://shop_images/Sale_Banner_Category_9_7810d74e-83a9-44d4-82cc-67800fc7fd19.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_j6wDdz": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "selective-bra-rm79",
+              "image": "shopify://shop_images/26_1ee0f0ba-6bcb-42d9-a034-acfbadebf42d.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_B86cyF": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "stella-group-buy",
+              "image": "shopify://shop_images/Live_Poster_2100_x_1000_px_1_2b710955-4264-4192-86c7-879a20469b49.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_CHMzqq": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "weekly-flash-sale-rm88",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_5_326fdbcc-0554-47fd-a09a-f852a97abed7.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_BVV4k3": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "ginger-group-buy",
+              "image": "shopify://shop_images/Live_Poster_2100_x_1000_px_4.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_99LLBy": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "tiny-series",
+              "image": "shopify://shop_images/Sale_Banner_Category_13.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_Mgg6qG": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "seamless-bra-single",
+              "image": "shopify://shop_images/Sale_Banner_Category_12.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_MqEMGa": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "curvy-series",
+              "image": "shopify://shop_images/12_3d9751b9-9202-4896-b5dc-34b17e2c31cc.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_9QiF6m": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "shaping-panty",
+              "image": "shopify://shop_images/Sale_Banner_Category_10.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_M48hK6": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "new-in",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_31.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_AEfXQ8": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "coco-live-group-buy",
+              "image": "shopify://shop_images/Live_Poster_2100_x_1000_px_2_5855f8b8-7702-4d4b-bcb4-1bd6328f778f.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_9DJWfx": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "contton-buddy-2-in-1-pack",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_8fcec89b-628a-4b65-83c2-dbe57a8ea2d9.png",
+              "link": "shopify://collections/contton-buddy-2-in-1-pack",
+              "width": "100"
+            }
+          },
+          "image_rDnygT": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "everlayer-collection",
+              "image": "shopify://shop_images/Sale_Banner_Category_15.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_eNdf6U": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "bra-sets-10-off",
+              "image": "shopify://shop_images/25_9c2eff33-a1d1-48e2-bebc-8aad399ba02c.png",
+              "link": "shopify://collections/bra-set-10-off-1",
+              "width": "100"
+            }
+          },
+          "image_9w7drY": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "mix-match-all-sleepwear-collection-2-sets-for-rm250",
+              "image": "shopify://shop_images/28_aa52610f-87f5-456d-9c7a-9a09d111e168.png",
+              "link": "shopify://collections/mix-match-all-sleepwear-collection-2-sets-for-rm250",
+              "width": "100"
+            }
+          },
+          "image_hjwppw": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "panty-bundle",
+              "image": "shopify://shop_images/27_40165dd5-9b73-436c-8b78-5d0c07047e84.png",
+              "link": "shopify://collections/mix-match-panty-rm150",
+              "width": "100"
+            }
+          },
+          "image_7dbpBR": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "bra-bundle",
+              "image": "shopify://shop_images/24_9b5a5c0c-88c9-4e35-a0a3-cd40578af1b4.png",
+              "link": "shopify://collections/all-bra-collection-3-for-rm288",
+              "width": "100"
+            }
+          },
+          "image_PgYxnD": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "new-in-belle-duo",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_dfa1fe9b-cb13-4e5c-9a7e-6261b92e6485.png",
+              "link": "shopify://collections/new-in-belle-duo",
+              "width": "100"
+            }
+          },
+          "image_6ERcfP": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "comfit-series",
+              "image": "shopify://shop_images/COMFIT_1272_x_848_px_1.png",
+              "link": "shopify://collections/comfit-series",
+              "width": "100"
+            }
+          },
+          "image_tEKeiw": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "c-active-series",
+              "image": "shopify://shop_images/C.ACTIVE_1.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "7fa9dd5b-061a-4a50-9407-79677ead9e82": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "seamless-bra-series",
+              "image": "shopify://shop_images/Sale_Banner_Category_9.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "22cf5755-e6c7-4282-8bf2-4e6e2d195636": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "knit-boxers",
+              "image": "shopify://shop_images/51.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "3f7295bb-571a-42de-8b31-9d4a52ab264a": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "briefs",
+              "image": "shopify://shop_images/9_50eabb37-4195-4ca0-a239-75be031a0adf.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "744b2a6e-3757-4f9f-8b6a-5c571940a920": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "lace-waist",
+              "image": "shopify://shop_images/8_9456e57d-3ca4-4e9c-a4e2-50284925aca4.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "9e067042-898e-436e-bc17-0105a14ec709": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "the-lacie",
+              "image": "shopify://shop_images/Sale_Banner_Category_7.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "05f60c85-245a-40de-980d-82095a6830bb": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "shorty",
+              "image": "shopify://shop_images/32_b968f71f-6d77-4af9-afc2-b355651040bc.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "34d988b5-d528-4eb3-a40b-9360775fbdbb": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "thongs",
+              "image": "shopify://shop_images/13_5d67367e-8744-431c-ae6c-983f26fcd63e.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "af93548b-48d8-4fd2-853c-4c9de2592f22": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "seamless-series",
+              "image": "shopify://shop_images/5_653b7db1-4a7a-480a-9cc0-c9918485cd90.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "6a3e9e05-2c03-438c-8885-c63d3ee5d549": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "cool-series",
+              "image": "shopify://shop_images/Sale_Banner_Category_6.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "670c4b77-237a-4cf7-8616-abf4b4788442": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "hygiene-series",
+              "image": "shopify://shop_images/36_683c8b30-9538-4f39-9240-6418a250bd0c.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "e5b85908-2bdf-4ca1-90d5-53998206679c": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "mestrual",
+              "image": "shopify://shop_images/Sale_Banner_Category-2.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "af8d359e-91fc-4ed8-ae02-00028fb747f7": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "mens-briefs",
+              "image": "shopify://shop_images/47_c98db2a3-d2c6-41b0-8b62-bb892dd83b0a.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "b1d289f9-2047-4a78-ab16-5d881e5f8add": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "boxers",
+              "image": "shopify://shop_images/47.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "575d345f-69fe-4f84-bdd1-826945d604b7": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "girls-collection",
+              "image": "shopify://shop_images/44.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "f8d834dd-42a2-4206-bb97-0848824ed9f4": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "boys-collection",
+              "image": "shopify://shop_images/43.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "2e8c4ed9-674b-4ea0-ac9c-b6a55e6c0b5d": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "bra-top",
+              "image": "shopify://shop_images/Sale_Banner_Category_3.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "a0065a22-8d8d-4569-ab61-40cbacf25089": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "safety-panty",
+              "image": "shopify://shop_images/SHOPEE_BANNER_1272_x_848px_64644771-dac8-4e19-af93-40d7bbc02414.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "68eb70e3-d4c9-4de2-9ed9-48026571955e": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "socks",
+              "image": "shopify://shop_images/40.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "330e4294-6059-4201-858f-5aa25288e582": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "nursing-bra",
+              "image": "shopify://shop_images/15_0bcb0dfe-5d24-418a-b98e-3920405551b3.png",
+              "link": "shopify://collections/nursing-bra",
+              "width": "100"
+            }
+          },
+          "7087b4b5-881a-4115-8c41-d297d266801e": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "e-gift-card",
+              "image": "shopify://shop_images/CNY_COLLECTION_1.png",
+              "link": "shopify://collections/e-gift-card",
+              "width": "100"
+            }
+          },
+          "5eb69034-d000-4eb2-8ef0-94a413cbebd2": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "sport-bra",
+              "image": "shopify://shop_images/CNY_COLLECTION_9150d369-a1de-4304-83f9-bf9c66489158.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "7e29ed31-7e20-4227-8b8a-7e8ed73470b5": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "hipster",
+              "image": "shopify://shop_images/19_03a3605b-712f-47e8-ba69-6b04aa1a82ce.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "3f8a3a82-e5cf-4f86-b7ad-f2dd319f24fe": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "lace-bralette",
+              "image": "shopify://shop_images/SHOPEE_BANNER_1272_x_848px_3.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "dc652441-dda5-47cb-ab7d-6212ba8da1c8": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "pajamas-set",
+              "image": "shopify://shop_images/39_b5ba0163-ca28-4bfe-954e-9510cc93de31.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "d40c5ef0-7820-4354-8a9f-ab0d0bc7a96c": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "seamless-brief",
+              "image": "shopify://shop_images/4_896d6b54-046c-41d7-bc2d-f593a50d2b0f.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "65803766-0a2c-491d-ada0-223998cf1e66": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "push-up",
+              "image": "shopify://shop_images/Sale_Banner_Category_79df77c2-5a9d-44d8-b038-c3fdef8953f2.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "47dc5d11-dcf7-4d32-b19b-6b47f12fbb48": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "strapless",
+              "image": "shopify://shop_images/Sale_Banner_Category_5.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "074ec2c8-4e84-4b53-8678-230cba61e009": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "all-day-comfort-wireless-bra-during-pregnancy",
+              "image": "shopify://shop_images/7_76c1050c-5b97-44e9-a8e4-c1dd657e8a2d.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "1dbdb66d-33e3-4721-93b3-65b497dc15d0": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "new-in-1",
+              "image": "shopify://shop_images/PETIT_DAY_2.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_tQngJw": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "comfit-collection",
+              "image": "shopify://shop_images/SHOPEE_BANNER_1272_x_848px_1.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_QRLgih": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "bralette-1",
+              "image": "shopify://shop_images/Sale_Banner_Category_8.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_BGKQBV": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "panty-collection-rm10",
+              "image": "shopify://shop_images/3_e54b185f-ff02-483b-8c20-da2039cd5652.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_HXUn8C": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "cool-collec",
+              "image": "shopify://shop_images/1_6ef318d3-5a58-4814-8a6e-a4ac4dc8d504.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_V6m7rf": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "sleepwear-collection-20-off",
+              "image": "shopify://shop_images/Sale_Banner_Category_4_1886acd2-ef8a-4906-9b45-dd8ea1b73472.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "a05102ef-cafa-44d9-a94a-9ed108351d23": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "face-mask-socks-rm9-90",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_11_bf354cde-1921-4f22-a10e-d95679232ca0.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_ApJdHT": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "closeout-sale-50-off",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_9_e1edda1a-1ec6-4385-987c-99047f54fca2.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_AR8BrG": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "closeout-sale-50-off-women-bra",
+              "image": "shopify://shop_images/SALE_BANNER_Facebook_Cover_Instagram_Story_9_e1edda1a-1ec6-4385-987c-99047f54fca2.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_x9FwHD": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "50-off-women-panty",
+              "image": "shopify://shop_images/7_13d62eb6-b328-4d64-b849-50d3b973e071.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_ykwNNX": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "50-off-kid-collection",
+              "image": "shopify://shop_images/8_a994818d-9786-45ed-a0d0-65dbeebec565.png",
+              "link": "",
+              "width": "100"
+            }
+          },
+          "image_VpbUjc": {
+            "type": "image",
+            "settings": {
+              "promo_collection": "50-off-men-collection",
+              "image": "shopify://shop_images/9_2eeecb3a-8069-425c-873a-382a17ee389b.png",
+              "link": "",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "image_DhraU7",
+          "image_j6wDdz",
+          "image_B86cyF",
+          "image_CHMzqq",
+          "image_BVV4k3",
+          "image_99LLBy",
+          "image_Mgg6qG",
+          "image_MqEMGa",
+          "image_9QiF6m",
+          "image_M48hK6",
+          "image_AEfXQ8",
+          "image_9DJWfx",
+          "image_rDnygT",
+          "image_eNdf6U",
+          "image_9w7drY",
+          "image_hjwppw",
+          "image_7dbpBR",
+          "image_PgYxnD",
+          "image_6ERcfP",
+          "image_tEKeiw",
+          "7fa9dd5b-061a-4a50-9407-79677ead9e82",
+          "22cf5755-e6c7-4282-8bf2-4e6e2d195636",
+          "3f7295bb-571a-42de-8b31-9d4a52ab264a",
+          "744b2a6e-3757-4f9f-8b6a-5c571940a920",
+          "9e067042-898e-436e-bc17-0105a14ec709",
+          "05f60c85-245a-40de-980d-82095a6830bb",
+          "34d988b5-d528-4eb3-a40b-9360775fbdbb",
+          "af93548b-48d8-4fd2-853c-4c9de2592f22",
+          "6a3e9e05-2c03-438c-8885-c63d3ee5d549",
+          "670c4b77-237a-4cf7-8616-abf4b4788442",
+          "e5b85908-2bdf-4ca1-90d5-53998206679c",
+          "af8d359e-91fc-4ed8-ae02-00028fb747f7",
+          "b1d289f9-2047-4a78-ab16-5d881e5f8add",
+          "575d345f-69fe-4f84-bdd1-826945d604b7",
+          "f8d834dd-42a2-4206-bb97-0848824ed9f4",
+          "2e8c4ed9-674b-4ea0-ac9c-b6a55e6c0b5d",
+          "a0065a22-8d8d-4569-ab61-40cbacf25089",
+          "68eb70e3-d4c9-4de2-9ed9-48026571955e",
+          "330e4294-6059-4201-858f-5aa25288e582",
+          "7087b4b5-881a-4115-8c41-d297d266801e",
+          "5eb69034-d000-4eb2-8ef0-94a413cbebd2",
+          "7e29ed31-7e20-4227-8b8a-7e8ed73470b5",
+          "3f8a3a82-e5cf-4f86-b7ad-f2dd319f24fe",
+          "dc652441-dda5-47cb-ab7d-6212ba8da1c8",
+          "d40c5ef0-7820-4354-8a9f-ab0d0bc7a96c",
+          "65803766-0a2c-491d-ada0-223998cf1e66",
+          "47dc5d11-dcf7-4d32-b19b-6b47f12fbb48",
+          "074ec2c8-4e84-4b53-8678-230cba61e009",
+          "1dbdb66d-33e3-4721-93b3-65b497dc15d0",
+          "image_tQngJw",
+          "image_QRLgih",
+          "image_BGKQBV",
+          "image_HXUn8C",
+          "image_V6m7rf",
+          "a05102ef-cafa-44d9-a94a-9ed108351d23",
+          "image_ApJdHT",
+          "image_AR8BrG",
+          "image_x9FwHD",
+          "image_ykwNNX",
+          "image_VpbUjc"
+        ],
+        "settings": {
+          "gutter_size": 20
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "description_position": "bottom",
+          "subcollection_style": "none",
+          "subcollections_per_row": 5,
+          "enable_collection_count": true,
+          "per_row": 5,
+          "rows_per_page": 7,
+          "mobile_flush_grid": false
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "settings": {
+          "description_style": "default",
+          "social_enable": true,
+          "image_position": "left",
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "54ed49e0-8e76-422a-af7b-2d37cf09e96b": {
+        "type": "promo-grid",
+        "blocks": {
+          "a0ed6ee3-bb5c-4290-8dc1-d24e1f894b80": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_19.png",
+              "link": "#1 strapless",
+              "width": "100"
+            }
+          },
+          "image_jQciEt": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_18.png",
+              "link": "shopify://products/curvy-bun-seamless-strapless-bra",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "a0ed6ee3-bb5c-4290-8dc1-d24e1f894b80",
+          "image_jQciEt"
+        ],
+        "custom_css": [],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "page-sections-about-us-template": {
+        "type": "page-sections-about-us-template",
+        "blocks": {
+          "ed9fb31b-f1b1-4006-95dd-635edf70f668": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/1_85b1ebf2-d43b-4477-b03d-d0b8ad496d2b.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 750,
+              "parallax": false
+            }
+          },
+          "db33bcfe-1082-4e81-9cc9-512583946f18": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "<h2 align=\"center\">Comfort and Convenience: Redefine Shopping Online <br>for Bras and Panties with Celessa, Malaysia</h2>\n<p align=\"center\">It is in our core belief that the confidence we exude externally begins from what we feel internally, ie; the first layer we put onto our skin. Having said that, Celessa has made it our responsibility to cater to the needs of our Malaysian women with high-quality products that give them the feel of luxury and class as they experience a smooth online shopping experience for their seamless panties and <a href=\"https://celessa.com.my/collections/seamless-series/products/copy-of-airy-seamless-lingerie-set\">wireless bra in Malaysia.</a></p>\n<p align=\"center\">Time to indulge and self pamper with unparalleled quality and style for your day to day and also occasions with Celessa as your go-to <a href=\"https://celessa.com.my/\">lingerie brand in Malaysia.</a> Embark on your sense of sophistication matched with cosiness let it be for when you shop for range of seamless panties that keep your cheeks tucked in shapely or when you want to uplift your bosom naturally when you get your <a href=\"https://celessa.com.my/products/curvy-boost-push-up-seamless-strapless-bra?_pos=1&_sid=4dafcb40e&_ss=r\">online shopping done for push up bras in Malaysia.</a> </p>"
+            }
+          },
+          "ce752f59-e538-4142-9e8a-6d130bc7499d": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/White_Photo_Organic_Warm_Fashion_Bio_Link_Website-3.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 650,
+              "parallax": false
+            }
+          },
+          "5ad01379-fae9-4535-88d8-5feaef71de28": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify://shop_images/Untitled_design-7.png",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "",
+              "text": "<h1>Empowering Elegance through Premium Lingerie Online Shopping in Malaysia</h1><p>Founded in 2018, Celessa’s, a brand of online lingerie shop in Malaysia has become a favourite platform for many women. In the current era,  there are many seeking convenience merged with comfort when they shop online for bras and panties in Malaysia, thus the birth of Celessa has become their one-stop solution. </p><p>When you think Celessa, comfort is what we intend to pop into your mind. Originating from the combination of the words <strong>C</strong>omfort and S<strong>elesa </strong>with an additional <strong>s, </strong>it is our brand's utmost purpose to provide style without compromising comfort throughout womens’ day when they shop for their bra and panties online in Malaysia. </p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "2ad0f2b0-62f2-4500-9e20-cbbae807f5e2": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/1_4b4166ce-f106-4ad5-a360-2f7d95e95c8d.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 550,
+              "parallax": false
+            }
+          },
+          "36c5c021-50dc-4e4d-a170-0028be35c570": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Our Products",
+              "text": "<p>For every<em>BODY</em></p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "7d04e53c-95c9-4f15-bc71-74b85f72d2ba": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify://shop_images/1_9f628c6d-dbf6-447c-bd36-b82186265700.png",
+              "image_1_link": "shopify://collections/seamless",
+              "image_2": "shopify://shop_images/2_7972d47b-c1b4-45ff-a9d0-391d75d467f9.png",
+              "image_2_link": "shopify://collections/100-non-slip-strapless-collection",
+              "image_3": "shopify://shop_images/3_42556d69-a7a1-4314-b086-a51844493a2a.png",
+              "image_3_link": "shopify://collections/lace-bralette",
+              "image_4": "shopify://shop_images/4_e601d1d5-bacf-4190-a881-33b202444772.png",
+              "image_4_link": "shopify://collections/bra-top",
+              "enable_gutter": false,
+              "enable_zoom": false
+            }
+          },
+          "d9d2b767-b42a-4a69-a661-eb5609175a93": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify://shop_images/5_7c37dede-a3c6-44c9-8e98-29e19fcc4e51.png",
+              "image_1_link": "shopify://products/de-luna-modal-square-neck-sleeping-bra-low-back",
+              "image_2": "shopify://shop_images/6_fd5e8c6f-f63b-4e0f-9356-b743b79fc443.png",
+              "image_2_link": "shopify://collections/push-up",
+              "image_3": "shopify://shop_images/7_879ada3d-8243-46a4-ba18-ba0af6aa974f.png",
+              "image_3_link": "shopify://products/bare-active-seamless-sports-bra",
+              "image_4": "shopify://shop_images/8_42337a2d-383e-48d3-9b81-ceee5fb82595.png",
+              "image_4_link": "shopify://collections/bralette",
+              "enable_gutter": false,
+              "enable_zoom": false
+            }
+          },
+          "a9a61c0c-ddd4-427b-bd2e-05f0f5e8b58a": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "shopify://shop_images/10_98b2865c-8580-4dce-b304-ae3f9f378732.png",
+              "image_1_link": "shopify://collections/seamless-brief",
+              "image_2": "shopify://shop_images/11_3a80a341-5323-45be-9c04-8b41b56b96e3.png",
+              "image_2_link": "shopify://products/bare-lift-shaping-seamless-panty-light-control",
+              "image_3": "shopify://shop_images/12_df0b7262-0b02-49cc-b9c4-6b465bdbb4d7.png",
+              "image_3_link": "shopify://collections/the-lacie",
+              "image_4": "shopify://shop_images/13_818b1ed6-8953-4bd2-9786-aea8e90c43c9.png",
+              "image_4_link": "shopify://collections/mestrual",
+              "enable_gutter": false,
+              "enable_zoom": false
+            }
+          },
+          "b3042100-dc14-49b2-905a-ab98c1f3c48b": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/9_c7fe68ea-095f-4d20-a1aa-190b3aec1e89.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 650,
+              "parallax": false
+            }
+          },
+          "45bea1a5-2cf5-4bfa-9c62-d977eab8fe62": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/10_0a862407-b69a-4150-8a89-9a703d3155c5.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 550,
+              "parallax": false
+            }
+          },
+          "bf5ea72b-a82e-4e0f-a447-7d417ed943ff": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify://shop_images/16_7f5e3747-e995-42f9-90c3-c401b324ad5d.png",
+              "image_width_1": 650,
+              "title_1": "ALL READY STOCK",
+              "text_1": "<p>Same Day / Next Day Delivery</p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify://shop_images/15_8d9df756-5a60-4961-8f9c-30d9f0809943.png",
+              "image_width_2": 650,
+              "title_2": "CELESSA Reward",
+              "text_2": "<p>Shop and earn with every purchase</p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify://shop_images/18_ca2e055b-9a7e-442e-8982-a1a2e18fbb54.png",
+              "image_width_3": 650,
+              "title_3": "Secure Payment",
+              "text_3": "<p>TLS 1.2 encryption protocol with 128-bit SSL</p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "5644383a-de07-4991-8f71-9495459c819c": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/11_980b3b40-0ae9-4d9b-aaa7-dd7ef7acac96.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 750,
+              "parallax": false
+            }
+          },
+          "0b17dd46-e8ee-4892-b90e-2a7cb3238519": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify://shop_images/15_a39e2df0-17fd-442d-aa0f-a57ca0a9f2a9.png",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "left",
+              "height": 750,
+              "parallax": false
+            }
+          }
+        },
+        "block_order": [
+          "ed9fb31b-f1b1-4006-95dd-635edf70f668",
+          "db33bcfe-1082-4e81-9cc9-512583946f18",
+          "ce752f59-e538-4142-9e8a-6d130bc7499d",
+          "5ad01379-fae9-4535-88d8-5feaef71de28",
+          "2ad0f2b0-62f2-4500-9e20-cbbae807f5e2",
+          "36c5c021-50dc-4e4d-a170-0028be35c570",
+          "7d04e53c-95c9-4f15-bc71-74b85f72d2ba",
+          "d9d2b767-b42a-4a69-a661-eb5609175a93",
+          "a9a61c0c-ddd4-427b-bd2e-05f0f5e8b58a",
+          "b3042100-dc14-49b2-905a-ab98c1f3c48b",
+          "45bea1a5-2cf5-4bfa-9c62-d977eab8fe62",
+          "bf5ea72b-a82e-4e0f-a447-7d417ed943ff",
+          "5644383a-de07-4991-8f71-9495459c819c",
+          "0b17dd46-e8ee-4892-b90e-2a7cb3238519"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "264b154a-8585-46ab-bc2b-74396af616c5": {
+        "type": "promo-grid",
+        "blocks": {
+          "banner_WdnpMG": {
+            "type": "banner",
+            "disabled": true,
+            "settings": {
+              "heading": "Perfect fit for everybody",
+              "text": "At CELESSA, we celebrate the unique beauty of every woman, knowing that each body and bust is different. Every bra is designed with this in mind. The best bra? It’s the one that fits you perfectly—because what matters most is that it’s right for you.",
+              "link": "",
+              "label": "",
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "banner_F6Ttxk": {
+            "type": "banner",
+            "disabled": true,
+            "settings": {
+              "heading": "We CREATED COMFORT FOR EVERYBODY",
+              "text": "since 2018",
+              "link": "shopify://pages/what-is-the-story-behind-celessa",
+              "label": "",
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "be69ba5b-0dc1-4948-a31a-7de186dd7948": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/2_33c6806f-02d1-4610-a756-11f5af45bc85.png",
+              "link": "shopify://collections/made-for-smaller-size",
+              "width": "50"
+            }
+          },
+          "a1d9ffc4-ab2c-41f0-9558-67f51bc45e0b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Website_Banner_4e3eadb3-ff4d-4fad-bd56-c673fae78f84.png",
+              "link": "shopify://collections/made-for-larger-size",
+              "width": "50"
+            }
+          },
+          "3cd05965-a7e7-47c3-a1a5-2fcabc270ac4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Website_Banner_1.png",
+              "link": "shopify://collections/all-day-comfort-wireless-bra-during-pregnancy",
+              "width": "50"
+            }
+          },
+          "image_yQjBGQ": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "width": "50"
+            }
+          }
+        },
+        "block_order": [
+          "banner_WdnpMG",
+          "banner_F6Ttxk",
+          "be69ba5b-0dc1-4948-a31a-7de186dd7948",
+          "a1d9ffc4-ab2c-41f0-9558-67f51bc45e0b",
+          "3cd05965-a7e7-47c3-a1a5-2fcabc270ac4",
+          "image_yQjBGQ"
+        ],
+        "disabled": true,
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "92aa5adf-7205-48eb-93fb-3e65b299758c": {
+        "type": "promo-grid",
+        "blocks": {
+          "image_gtD6n3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Main_Page_Banner_9.png",
+              "link": "shopify://collections/seamless-bra-series",
+              "width": "100"
+            }
+          },
+          "ae67935c-d359-4067-bd9d-5f124b9ff89b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/26_e91bf2ec-ce1a-4748-92ed-3f223c4a0402.png",
+              "link": "https://www.youtube.com/playlist?list=PLzumPLn0UBtTvtSEc6vVmD-PA8m_ScxIY",
+              "width": "100"
+            }
+          },
+          "image_9Rbxte": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/Main_Page_Banner_12.png",
+              "link": "shopify://collections/bare-series",
+              "width": "100"
+            }
+          },
+          "image_wKPtjw": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/Main_Page_Banner_13.png",
+              "link": "shopify://collections/bratop-series",
+              "width": "100"
+            }
+          },
+          "image_4cye9g": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/30_f1e7aef8-d889-4436-a53d-21ca54dfdbc6.png",
+              "link": "shopify://collections/cool-collec",
+              "width": "100"
+            }
+          },
+          "image_3Uwr3L": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/32_297dffe5-de59-4f69-a717-45eebd1296ef.png",
+              "link": "shopify://products/cocos-live-cool-lift-shaping-seamless-panty",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "image_gtD6n3",
+          "ae67935c-d359-4067-bd9d-5f124b9ff89b",
+          "image_9Rbxte",
+          "image_wKPtjw",
+          "image_4cye9g",
+          "image_3Uwr3L"
+        ],
+        "disabled": true,
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "3f2b5f3e-156c-42f1-b469-573965650d69": {
+        "type": "promo-grid",
+        "blocks": {
+          "image_QYXW8k": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/20_30c53760-7146-44bc-9f7e-18800215509a.png",
+              "link": "#1 Seamless",
+              "width": "100"
+            }
+          },
+          "banner_FYgTfa": {
+            "type": "banner",
+            "settings": {
+              "heading": "We created comfort for everybody",
+              "text": "since 2018",
+              "link": "",
+              "label": "",
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "image_tFtRCb": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/22_0eb5d1cf-663e-4c84-af72-f92920c9debe.png",
+              "link": "shopify://pages/about-us",
+              "width": "100"
+            }
+          },
+          "image_3Yeezi": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_31.png",
+              "link": "shopify://collections/mix-match-all-sleepwear-collection-2-sets-for-rm250",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "image_QYXW8k",
+          "banner_FYgTfa",
+          "image_tFtRCb",
+          "image_3Yeezi"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "featured_collections_aY8MQm": {
+        "type": "featured-collections",
+        "blocks": {
+          "collection_WdnRXM": {
+            "type": "collection",
+            "settings": {
+              "collection": "shaping-bra-1",
+              "title": "SMOOTH & SHAPE",
+              "focal_point": "center center"
+            }
+          },
+          "collection_neEDaK": {
+            "type": "collection",
+            "settings": {
+              "collection": "made-for-smaller-size",
+              "title": "Smaller bust",
+              "focal_point": "center center"
+            }
+          },
+          "collection_JtBNAA": {
+            "type": "collection",
+            "settings": {
+              "collection": "made-for-larger-size",
+              "title": "Fuller bust",
+              "focal_point": "center center"
+            }
+          },
+          "collection_UeCQdE": {
+            "type": "collection",
+            "settings": {
+              "collection": "all-day-comfort-wireless-bra-during-pregnancy",
+              "title": "Changing bodies",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "collection_WdnRXM",
+          "collection_neEDaK",
+          "collection_JtBNAA",
+          "collection_UeCQdE"
+        ],
+        "settings": {
+          "title": "FIND YOUR FIT",
+          "divider": false,
+          "per_row": 4,
+          "enable_gutter": true
+        }
+      },
+      "promo_grid_LPrb7U": {
+        "type": "promo-grid",
+        "blocks": {
+          "banner_GQPRan": {
+            "type": "banner",
+            "disabled": true,
+            "settings": {
+              "heading": "ALL READY STOCK",
+              "text": "SAME DAY/NEXT DAY DELIVERY",
+              "link": "shopify://collections/cny-bra-series",
+              "label": "Shop now",
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "image_yVT3Bj": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_23.png",
+              "link": "shopify://collections/machine-washable-bra",
+              "width": "100"
+            }
+          },
+          "image_4VBxCp": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_31.png",
+              "link": "",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "banner_GQPRan",
+          "image_yVT3Bj",
+          "image_4VBxCp"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "featured_collection_EXbiVH": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "home_featured_products": "sleepwear-collection-20-off",
+          "per_row": 5,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": false,
+          "divider": false
+        }
+      },
+      "promo_grid_768txg": {
+        "type": "promo-grid",
+        "blocks": {
+          "banner_qbtzfF": {
+            "type": "banner",
+            "settings": {
+              "heading": "We CREATED COMFORT FOR EVERY BODY",
+              "text": "Since 2018",
+              "link": "",
+              "label": "",
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "image_QRjmxW": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/42_0fb24d98-1fdf-4381-bc24-bfdd3f531f1b.png",
+              "link": "",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "banner_qbtzfF",
+          "image_QRjmxW"
+        ],
+        "disabled": true,
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "advanced_content_yfJdex": {
+        "type": "advanced-content",
+        "blocks": {
+          "html_dA3E98": {
+            "type": "html",
+            "settings": {
+              "code": "<div id=\"content-wrapper\">\n<input type=\"checkbox\" class=\"read-more-state\" id=\"post-3\">\n<h1 style=\"font-size:16px; font-weight:strong; margin-top:05px; margin-bottom:5px; \">\nIndulge in Comfort: Discover Your Perfect Bra Fit with Best Online Lingerie Brand in Malaysia\n</h1>\n<p class=\"read-more-wrap\">\nAt Celessa, comfort meets style with our diverse collection of innerwear and sleepwear designed to cater to women of all sizes and backgrounds.\n</p>\n<!-- Button placed here -->\n<label for=\"post-3\" class=\"read-more-trigger\"></label>\n<p class=\"read-more-wrap\">\n<span class=\"read-more-target\">\nFrom petite to plus-size and even expectant mothers, we offer an extensive range that embraces every body type and stage of life, promising inclusivity for women of all walks of life for <a href=\"https://celessa.com.my/products/bare-seamless-bra-1\">seamless bras in Malaysia</a> along with our other products online. Experience the luxury of <a href=\"https://celessa.com.my/collections/seamless-brief/products/bare-seamless-hygiene-panties\">seamless underwear in Malaysia</a> that not only conceals lines but also accentuates your natural curves effortlessly. Our carefully crafted pieces are tailored to provide a snug fit without compromising on comfort, ensuring you feel confident and at ease throughout the day or night.\nPerfect for various styling needs, as one of the best online bra brands in Malaysia, our high-quality products allow you to explore different looks with ease. Whether it's a casual day out or a special occasion, our collection guarantees a seamless blend of quality, comfort, and style.\n</span>\n</p>\n<h2 class=\"read-more-wrap\" style=\"font-size:16px; font-weight:strong; margin-top:10px; margin-bottom:5px\">\n<span class=\"read-more-target\">\nEffortless Elegance Delivered to Your Doorstep from Malaysia’s Online Lingerie Brand\n</span>\n</h2>\n<p class=\"read-more-wrap\">\n<span class=\"read-more-target\">\nBrowse our extensive collection suitable for various occasions, ensuring you have the perfect undergarment for every moment. Feel at ease in our high-quality bra only from the best online brand in Malaysia as our designs are made to prioritize your comfort all day and night.\n\nAs convenience is key, pamper yourself with an extra deal of same-day or next-day delivery upon <a href=\"https://celessa.com.my/pages/about-us#>\">online bra shopping</a> in Malaysia with Celessa, bringing effortless elegance straight to your doorstep. No more waiting for days to flaunt confidence with your favorite innerwear or sleepwear with a swift delivery and revel in comfort without delay. Find your perfect bra in Malaysia online and get it delivered quickly!\n</span>\n</p>\n</div>\n<span class=\"emptyspace\"></span>\n\n<style>\n.read-more-state {\ndisplay: none;\n}\n\n.read-more-target {\nopacity: 0;\nmax-height: 0;\nfont-size: 0;\ntransition: .25s ease;\n}\n\n.read-more-state:checked ~ .read-more-wrap .read-more-target {\nopacity: 1;\nfont-size: inherit;\nmax-height: 999em;\n}\n\n.read-more-state ~ .read-more-trigger:before {\ncontent: 'Show more';\n}\n\n.read-more-state:checked ~ .read-more-trigger:before {\ncontent: 'Show less';\n}\n\n.read-more-trigger {\ncursor: pointer;\ndisplay: inline-block;\npadding: 0 .5em;\ncolor: #666;\nfont-size: .9em;\nline-height: 2;\nborder: 1px solid #ddd;\nborder-radius: .25em;\n}\n\n.index-section {\n    margin: 20px 0 !important;\n}\n\n.rte>div {\nmargin-bottom: -70px !important;\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\nconst checkbox = document.getElementById('post-3');\nconst contentWrapper = document.getElementById('content-wrapper');\n\ncheckbox.addEventListener('change', function() {\nif (checkbox.checked) {\ncontentWrapper.setAttribute('style', 'margin-bottom: 15px !important;');\n} else {\ncontentWrapper.setAttribute('style', 'margin-bottom: -70px !important;');\n}\n});\n});\n</script>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "html_dA3E98"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
+      },
+      "featured_collections_VcwTHr": {
+        "type": "featured-collections",
+        "blocks": {
+          "collection_63KV7g": {
+            "type": "collection",
+            "settings": {
+              "collection": "seamless-bra-series",
+              "title": "SEAMLESS",
+              "focal_point": "center center"
+            }
+          },
+          "collection_RPzj6p": {
+            "type": "collection",
+            "settings": {
+              "collection": "strapless",
+              "title": "STRAPLESS",
+              "focal_point": "center center"
+            }
+          },
+          "collection_BiahTk": {
+            "type": "collection",
+            "settings": {
+              "collection": "push-up",
+              "title": "PUSH UP",
+              "focal_point": "center center"
+            }
+          },
+          "collection_xdRKwY": {
+            "type": "collection",
+            "settings": {
+              "collection": "seamless-panty-1",
+              "title": "PANTY GUIDE",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "collection_63KV7g",
+          "collection_RPzj6p",
+          "collection_BiahTk",
+          "collection_xdRKwY"
+        ],
+        "name": "Collection list",
+        "settings": {
+          "title": "Shop by Need",
+          "divider": false,
+          "per_row": 4,
+          "enable_gutter": false
+        }
+      },
+      "promo_grid_YDPQ6i": {
+        "type": "promo-grid",
+        "blocks": {
+          "image_BGMcUF": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_15.png",
+              "link": "shopify://collections/seamless-bra-series",
+              "width": "100"
+            }
+          },
+          "image_7k3zKi": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_14.png",
+              "link": "",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "image_BGMcUF",
+          "image_7k3zKi"
+        ],
+        "name": "Promotional grid",
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "promo_grid_GRb68Q": {
+        "type": "promo-grid",
+        "blocks": {
+          "image_PbcUNN": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/Mainpage_banner_37.png",
+              "link": "",
+              "width": "100"
+            }
+          }
+        },
+        "block_order": [
+          "image_PbcUNN"
+        ],
+        "disabled": true,
+        "name": "Promotional grid",
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1524769873765",
+      "promo_grid_GRb68Q",
+      "featured_collections_VcwTHr",
+      "promo_grid_YDPQ6i",
+      "92aa5adf-7205-48eb-93fb-3e65b299758c",
+      "featured_collections_aY8MQm",
+      "54ed49e0-8e76-422a-af7b-2d37cf09e96b",
+      "572c1a1a-9931-46fe-9543-953afcb80ea0",
+      "promo_grid_LPrb7U",
+      "featured_collection_EXbiVH",
+      "3f2b5f3e-156c-42f1-b469-573965650d69",
+      "promo_grid_768txg",
+      "advanced_content_yfJdex",
+      "264b154a-8585-46ab-bc2b-74396af616c5"
+    ],
+    "blocks": {
+      "14417550493701535262": {
+        "type": "shopify://apps/discount-ninja/blocks/discountninja-app-embed-latest/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": true,
+        "settings": {}
+      },
+      "942670587456160541": {
+        "type": "shopify://apps/discount-ninja/blocks/discountninja-app-embed-stable/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {}
+      },
+      "7870427458342879596": {
+        "type": "shopify://apps/paylater-by-grab-promote/blocks/grab_widget_js/be482f6d-5c2f-4e44-95f3-7cf966cc0f44",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "6174324309569838175": {
+        "type": "shopify://apps/smile-loyalty-rewards/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": false,
+        "settings": {}
+      },
+      "16548475241908962911": {
+        "type": "shopify://apps/oxi-social-login/blocks/social-login-embed/24ad60bc-8f09-42fa-807e-e5eda0fdae17",
+        "disabled": false,
+        "settings": {}
+      },
+      "11989736685688860011": {
+        "type": "shopify://apps/easy-variant-images/blocks/embed_via/bfecabd5-49af-4d37-8214-f0f4649f4cb3",
+        "disabled": false,
+        "settings": {}
+      },
+      "11532412952436166569": {
+        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "disabled": false,
+        "settings": {}
+      },
+      "3538610974289205533": {
+        "type": "shopify://apps/color-swatch-pug/blocks/csp-collection-embed/2b280169-82da-4cb3-8328-2171dc376056",
+        "disabled": true,
+        "settings": {}
+      },
+      "9222922612081285867": {
+        "type": "shopify://apps/color-swatch-pug/blocks/app-embedd-block/2b280169-82da-4cb3-8328-2171dc376056",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!",
+          "button_color": "#bebebe",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest"
+        }
+      },
+      "13027630495364635475": {
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Modern": {
+      "breadcrumb": true,
+      "button_style": "square",
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "cart_type": "drawer",
+      "checkout_accent_color": "#111111",
+      "checkout_body_background_color": "#fff",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "checkout_input_background_color_mode": "white",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_sidebar_background_color": "#fafafa",
+      "collection_color_swatches": false,
+      "collection_grid_gutter": true,
+      "collection_grid_image": "product",
+      "collection_grid_opacity": 10,
+      "collection_grid_shape": "square",
+      "collection_grid_style": "overlaid-box",
+      "collection_grid_text_align": "center",
+      "collection_grid_tint": "#000000",
+      "color_announcement": "#0f0f0f",
+      "color_announcement_text": "#fff",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_cart_dot": "#ff4f33",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_footer": "#ffffff",
+      "color_footer_text": "#000000",
+      "color_header": "#fff",
+      "color_header_text": "#000",
+      "color_image_overlay": "#000",
+      "color_image_overlay_text_shadow": 20,
+      "color_large_image_bg": "#0f0f0f",
+      "color_modal_overlays": "#e6e6e6",
+      "color_price": "#1c1d1d",
+      "color_savings_text": "#ff4e4e",
+      "color_small_image_bg": "#fff",
+      "icon_linecaps": "miter",
+      "icon_weight": "2px",
+      "inventory_enable": true,
+      "product_color_swatches": false,
+      "product_contact": false,
+      "product_grid_image_size": "natural",
+      "product_hover_image": false,
+      "quantity_enable": false,
+      "quick_shop_text": "Quick view",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "sku_enable": false,
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_pinterest_link": "https://www.pinterest.com/shopify",
+      "type_base_font_family": "futura_n4",
+      "type_base_line_height": 1.6,
+      "type_base_size": 16,
+      "type_base_spacing": "25",
+      "type_body_align_text": true,
+      "type_collection_font": "body",
+      "type_collection_size": 18,
+      "type_header_base_size": 38,
+      "type_header_capitalize": true,
+      "type_header_font_family": "tiemann_n4",
+      "type_header_line_height": 1,
+      "type_header_spacing": "0",
+      "type_headers_align_text": true,
+      "type_navigation_capitalize": true,
+      "type_navigation_size": 13,
+      "type_navigation_style": "body",
+      "type_product_style": "body",
+      "variant_type": "button",
+      "vendor_enable": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1524770014057": {
+              "type": "logo",
+              "settings": {
+                "desktop_logo_width": 140,
+                "mobile_logo_width": 110
+              }
+            },
+            "1524770292306": {
+              "type": "announcement",
+              "settings": {
+                "text": "Free shipping",
+                "link_text": "On all orders over $100"
+              }
+            },
+            "1524770296206": {
+              "type": "announcement",
+              "settings": {
+                "text": "Hassle-free returns",
+                "link_text": "30-day postage paid returns"
+              }
+            }
+          },
+          "block_order": [
+            "1524770014057",
+            "1524770292306",
+            "1524770296206"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "center-split",
+            "header_style": "sticky",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "announcement_compact": true,
+            "toolbar_menu": "top",
+            "toolbar_social": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494301487048": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 95
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 25
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292487693",
+            "1494301487048"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "subcollection_style": "above",
+            "subcollections_per_row": 5,
+            "per_row": 4
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_position": "left",
+            "image_size": "large"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true,
+            "divider": false
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3"
+          ],
+          "settings": {
+            "title": "Shop by category",
+            "divider": false,
+            "per_row": 4,
+            "enable_gutter": true
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify://collections/all",
+            "focal_point": "80% 0",
+            "color_border": "#cdb8ac",
+            "layout": "left",
+            "height": 750,
+            "framed": false,
+            "parallax": true
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+                "enable_gutter": false,
+                "enable_zoom": true
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "layout": "left"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550,
+                "parallax": true
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+                "text_align": "vertical-bottom horizontal-left",
+                "section_height": "650px",
+                "mobile_height": "auto"
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-image-hero": {
+              "type": "image-hero",
+              "settings": {}
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+                "title": "Featured collection",
+                "per_row": 4,
+                "rows": 1,
+                "view_all": true
+              }
+            }
+          },
+          "block_order": [
+            "page-image-hero",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {}
+        },
+        "1524769873765": {
+          "type": "slideshow",
+          "blocks": {
+            "1524769873765-0": {
+              "type": "image",
+              "settings": {
+                "title_size": 80,
+                "link": "shopify://collections/all",
+                "link_text": "Shop this",
+                "link_2": "shopify://collections/all",
+                "link_text_2": "Shop all",
+                "color_accent": "#000000",
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "top center"
+              }
+            },
+            "1524769873765-1": {
+              "type": "image",
+              "settings": {
+                "title_size": 80,
+                "link": "shopify://collections/all",
+                "link_text": "Shop all",
+                "link_2": "shopify://collections/all",
+                "link_text_2": "Shop all",
+                "color_accent": "#000000",
+                "text_align": "vertical-bottom horizontal-left",
+                "focal_point": "top center"
+              }
+            }
+          },
+          "block_order": [
+            "1524769873765-0",
+            "1524769873765-1"
+          ],
+          "settings": {
+            "section_height": "750px",
+            "mobile_height": "auto",
+            "parallax": true,
+            "style": "bars",
+            "autoplay": true,
+            "autoplay_speed": 7
+          }
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": true,
+            "parallax": true
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "1524772785241": {
+              "type": "subcollections",
+              "settings": {}
+            },
+            "1524772580942": {
+              "type": "tags_all",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524772785241",
+            "1524772580942"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "filter_style": "sidebar",
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1525115199973": {
+          "type": "blog-posts",
+          "settings": {
+            "title": "From the journal",
+            "blog": "news",
+            "post_limit": 3,
+            "blog_show_tags": false,
+            "blog_show_date": true,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "view_all": true,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "1525118065355": {
+          "type": "map",
+          "settings": {}
+        },
+        "1525295772132": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 4,
+            "rows": 1,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "1525886124958": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525886482727": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify://collections/all",
+                "width": "100",
+                "height": 720,
+                "text_size": 120,
+                "focal_point": "80% 50%",
+                "boxed": false,
+                "framed": false
+              }
+            },
+            "1525886854810": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1525911710924": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "boxed": false,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525886482727",
+            "1525886854810",
+            "1525911710924"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525912530555": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525912530555-0": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify://collections/all",
+                "width": "50",
+                "height": 800,
+                "text_size": 100,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1525912530555-1": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify://collections/all",
+                "width": "50",
+                "height": 500,
+                "text_size": 100,
+                "text_align": "vertical-bottom horizontal-center",
+                "focal_point": "80% 50%",
+                "boxed": true,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1525912530555-0",
+            "1525912530555-1"
+          ],
+          "settings": {
+            "full_width": true,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "collection-promotions": {
+          "type": "collection-promotions",
+          "blocks": {
+            "1526403837307": {
+              "type": "banner",
+              "settings": {
+                "link": "shopify://collections/all",
+                "label": "Shop now",
+                "color_tint": "#e95454",
+                "color_tint_opacity": 10,
+                "framed": false
+              }
+            },
+            "1526496043079": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify://collections/all",
+                "width": "100",
+                "height": 500,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1526403837307",
+            "1526496043079"
+          ],
+          "settings": {
+            "gutter_size": 20
+          }
+        }
+      },
+      "content_for_index": [
+        "1524769873765",
+        "1498163293234",
+        "1525912530555",
+        "1499789718857",
+        "1525886124958",
+        "1525295772132",
+        "1499790633921",
+        "1525115199973",
+        "1525118065355"
+      ]
+    },
+    "Vintage": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_price": "#1c1d1d",
+      "color_savings_text": "#72acc7",
+      "color_borders": "#f2f2f2",
+      "color_button": "#682d2d",
+      "color_button_text": "#fff",
+      "color_cart_dot": "#682d2d",
+      "color_small_image_bg": "#f7f7f9",
+      "color_large_image_bg": "#682d2d",
+      "color_header": "#ffffff",
+      "color_header_text": "#000000",
+      "color_announcement": "#6a2727",
+      "color_announcement_text": "#ffffff",
+      "color_footer": "#f7f7f9",
+      "color_footer_text": "#593b32",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#682d2d",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#cdc9c2",
+      "color_image_overlay": "#000",
+      "color_image_overlay_text_shadow": 30,
+      "type_header_font_family": "americana_n8",
+      "type_header_spacing": "0",
+      "type_header_base_size": 36,
+      "type_header_line_height": 1.2,
+      "type_header_capitalize": true,
+      "type_headers_align_text": true,
+      "type_base_font_family": "avenir_next_n4",
+      "type_base_spacing": "0",
+      "type_base_size": 18,
+      "type_base_line_height": 1.5,
+      "type_body_align_text": true,
+      "type_navigation_style": "heading",
+      "type_navigation_size": 17,
+      "type_product_style": "body",
+      "type_collection_font": "heading",
+      "type_collection_size": 20,
+      "button_style": "square",
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "vendor_enable": false,
+      "sku_enable": false,
+      "quantity_enable": false,
+      "variant_type": "button",
+      "inventory_enable": false,
+      "quick_shop_text": "Quick view",
+      "product_grid_image_size": "square",
+      "product_hover_image": true,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_contact": true,
+      "collection_grid_style": "below",
+      "collection_grid_shape": "landscape",
+      "collection_grid_image": "product",
+      "collection_grid_text_align": "top-center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 0,
+      "collection_grid_gutter": true,
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_twitter_link": "https://twitter.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_youtube_link": "https://www.youtube.com/user/shopify",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#682d2d",
+      "checkout_button_color": "#682d2d",
+      "checkout_error_color": "#ff6d6d",
+      "product_fixed_image_height": false,
+      "breadcrumb": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1520882467782": {
+              "type": "logo",
+              "settings": {}
+            },
+            "1521051841065": {
+              "type": "announcement",
+              "settings": {
+                "text": "Free shipping",
+                "link_text": "On all orders over $100",
+                "link": "shopify://collections/all"
+              }
+            },
+            "1520888647304": {
+              "type": "announcement",
+              "settings": {
+                "text": "Hassle-free returns",
+                "link_text": "30-day postage paid returns",
+                "link": "shopify://collections/all"
+              }
+            }
+          },
+          "block_order": [
+            "1520882467782",
+            "1521051841065",
+            "1520888647304"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "center-split",
+            "header_style": "normal",
+            "sticky_index": true,
+            "sticky_collection": true,
+            "announcement_compact": true,
+            "toolbar_menu": "toolbar",
+            "toolbar_social": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494301487048": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 95
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 25
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 30
+              }
+            }
+          },
+          "block_order": [
+            "1494301487049",
+            "1494292487693",
+            "1494301487048"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "subcollection_style": "above",
+            "subcollections_per_row": 3,
+            "per_row": 2
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": false,
+            "image_size": "large",
+            "thumbnail_position": "below"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true,
+            "divider": false
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify://collections/all",
+            "focal_point": "center",
+            "color_border": "#6a635b",
+            "layout": "right",
+            "height": 750,
+            "framed": true,
+            "parallax": true
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+                "enable_gutter": false,
+                "enable_zoom": true
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+                "layout": "left"
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550,
+                "parallax": true
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+                "text_align": "vertical-bottom horizontal-left",
+                "section_height": "650px",
+                "mobile_height": "auto"
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+                "per_row": 4,
+                "rows": 1,
+                "view_all": true
+              }
+            }
+          },
+          "block_order": [
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {}
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": true,
+            "parallax": true
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "1524772785241": {
+              "type": "subcollections",
+              "settings": {}
+            },
+            "1524772580942": {
+              "type": "tags_all",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524772785241",
+            "1524772580942"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "filter_style": "sidebar",
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1523298253705": {
+          "type": "slideshow",
+          "blocks": {
+            "1523298253705-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "1523298253705-1": {
+              "type": "image",
+              "settings": {
+                "title_size": 80,
+                "text_align": "vertical-bottom horizontal-right",
+                "focal_point": "center center"
+              }
+            }
+          },
+          "block_order": [
+            "1523298253705-0",
+            "1523298253705-1"
+          ],
+          "settings": {
+            "section_height": "100vh",
+            "mobile_height": "500px",
+            "parallax": true,
+            "style": "minimal",
+            "autoplay": true,
+            "autoplay_speed": 7
+          }
+        },
+        "list-collections-template": {
+          "type": "list-collections-template",
+          "settings": {
+            "title_enable": true,
+            "display_type": "all",
+            "sort": "alphabetical",
+            "grid": "3"
+          }
+        },
+        "1523380258742": {
+          "type": "featured-collections",
+          "disabled": true,
+          "blocks": {
+            "1523380258742-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1523380258742-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1523380258742-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524685811204": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524685816171": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524685829380": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1523380258742-0",
+            "1523380258742-1",
+            "1523380258742-2",
+            "1524685811204",
+            "1524685816171",
+            "1524685829380"
+          ],
+          "settings": {
+            "divider": false,
+            "per_row": 3,
+            "enable_gutter": true
+          }
+        },
+        "1524685456938": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify://collections/all",
+            "focal_point": "center",
+            "color_border": "#655147",
+            "layout": "right",
+            "height": 650,
+            "framed": true,
+            "parallax": true
+          }
+        },
+        "1524685919990": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 4,
+            "rows": 1,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "1524685997883": {
+          "type": "newsletter",
+          "settings": {
+            "color_background": "#f7f7f9",
+            "color_text": "#3f2e2e"
+          }
+        },
+        "1524686167862": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 3,
+            "rows": 1,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "1524686876171": {
+          "type": "featured-collections",
+          "blocks": {
+            "1524686876171-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1524686876171-1": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524686876171-0",
+            "1524686876171-1"
+          ],
+          "settings": {
+            "divider": false,
+            "per_row": 2,
+            "enable_gutter": true
+          }
+        },
+        "1525878145666": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525879359021": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify://collections/all",
+                "width": "100",
+                "height": 500,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "80% 50%",
+                "boxed": false,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525879359021"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525881294487": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525881312850": {
+              "type": "banner",
+              "settings": {
+                "link": "shopify://collections/all",
+                "label": "Learn more",
+                "color_tint": "#d69344",
+                "color_tint_opacity": 14,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525881312850"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 0,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525968536765": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525968571112": {
+              "type": "product",
+              "settings": {
+                "label": "New",
+                "enable_price": true,
+                "width": "100",
+                "text_size": 100,
+                "color_tint": "#000",
+                "color_tint_opacity": 0,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1525968571112"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1525969002555": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "post_limit": 3,
+            "blog_show_tags": false,
+            "blog_show_date": true,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "view_all": true,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "1526493275292": {
+          "type": "promo-grid",
+          "blocks": {
+            "1526493290477": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "100",
+                "boxed": true,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1526493290477"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": true
+          }
+        },
+        "collection-promotions": {
+          "type": "collection-promotions",
+          "blocks": {
+            "1526501666154": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "100",
+                "boxed": true,
+                "framed": true
+              }
+            },
+            "1526501699095": {
+              "type": "banner",
+              "settings": {
+                "heading": "Free shipping",
+                "link": "shopify://collections/all",
+                "label": "Learn more",
+                "color_tint": "#d69344",
+                "color_tint_opacity": 14,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1526501666154",
+            "1526501699095"
+          ],
+          "settings": {
+            "gutter_size": 20
+          }
+        }
+      },
+      "content_for_index": [
+        "1523298253705",
+        "1498163293234",
+        "1525878145666",
+        "1523380258742",
+        "1524686876171",
+        "1526493275292",
+        "1524685456938",
+        "1524685919990",
+        "1525881294487",
+        "1524686167862",
+        "1524685997883",
+        "1499790633921",
+        "1525968536765",
+        "1525969002555"
+      ]
+    },
+    "Bold": {
+      "color_body_bg": "#000000",
+      "color_body_text": "#ffffff",
+      "color_price": "#d1ba98",
+      "color_savings_text": "#ff6565",
+      "color_borders": "#2b2a27",
+      "color_button": "#9f8561",
+      "color_button_text": "#ffffff",
+      "color_cart_dot": "#9f8561",
+      "color_small_image_bg": "#000000",
+      "color_large_image_bg": "#111111",
+      "color_header": "#000000",
+      "color_header_text": "#ffffff",
+      "color_announcement": "#cf2424",
+      "color_announcement_text": "#fff",
+      "color_footer": "#000000",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#000000",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#2b2a27",
+      "color_drawer_button": "#9f8561",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#67635d",
+      "color_image_overlay": "#000",
+      "color_image_overlay_opacity": 15,
+      "color_image_overlay_text_shadow": 30,
+      "type_header_font_family": "fjalla_one_n4",
+      "type_header_spacing": "150",
+      "type_header_base_size": 45,
+      "type_header_line_height": 1.2,
+      "type_header_capitalize": true,
+      "type_headers_align_text": true,
+      "type_base_font_family": "itc_conduit_n4",
+      "type_base_spacing": "50",
+      "type_base_size": 18,
+      "type_base_line_height": 1.4,
+      "type_body_align_text": true,
+      "type_navigation_style": "heading",
+      "type_navigation_size": 18,
+      "type_product_style": "heading",
+      "type_collection_font": "heading",
+      "type_collection_size": 23,
+      "button_style": "angled",
+      "icon_weight": "5px",
+      "icon_linecaps": "miter",
+      "vendor_enable": false,
+      "search_enable": false,
+      "sku_enable": false,
+      "quantity_enable": false,
+      "variant_type": "button",
+      "inventory_enable": false,
+      "product_save_amount": true,
+      "product_zoom_enable": false,
+      "quick_shop_enable": true,
+      "quick_shop_text": "Quick view",
+      "product_grid_image_size": "square",
+      "product_hover_image": false,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_content_collapse_1": true,
+      "product_content_collapse_2": true,
+      "product_content_collapse_3": true,
+      "product_contact": false,
+      "enable_product_reviews": true,
+      "reviews_layout": "expandable",
+      "collection_grid_style": "overlaid-box",
+      "collection_grid_shape": "landscape",
+      "collection_grid_image": "collection",
+      "collection_grid_text_align": "bottom-center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 10,
+      "collection_grid_gutter": true,
+      "cart_type": "drawer",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_twitter_link": "https://twitter.com/shopify",
+      "social_youtube_link": "https://www.youtube.com/user/shopify",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#000000",
+      "checkout_input_background_color_mode": "transparent",
+      "checkout_sidebar_background_color": "#000000",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#ae9878",
+      "checkout_button_color": "#ae9878",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_2": "#cf2424",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#6d1414",
+      "color_image_1_opacity": 0,
+      "type_accent_style": "body",
+      "type_accent_bold": true,
+      "type_accent_capitalize": true,
+      "type_button_font": "heading",
+      "type_button_capitalize": false,
+      "type_header_accent_transform": true,
+      "type_base_accent_transform": true,
+      "collection_grid_font": "heading",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1524768779513": {
+              "type": "logo",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524768779513"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "left-center",
+            "header_style": "normal",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "announcement_compact": false,
+            "toolbar_social": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {}
+            },
+            "1526406521795": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 25
+              }
+            },
+            "1525444454442": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 95
+              }
+            }
+          },
+          "block_order": [
+            "1494292487693",
+            "1526406521795",
+            "1525444454442"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "subcollection_style": "above",
+            "subcollections_per_row": 3,
+            "per_row": 5
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "large"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify://collections/all",
+            "focal_point": "center",
+            "color_border": "#090909",
+            "layout": "right",
+            "height": 750,
+            "framed": false,
+            "parallax": true
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "button_link": "shopify://collections/all",
+                "alignment": "top left",
+                "color_border": "#3a6815",
+                "layout": "right",
+                "height": 550,
+                "parallax": false
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "product-background-image-text",
+            "product-text-columns"
+          ],
+          "settings": {
+            "social_enable": true,
+            "image_size": "large",
+            "thumbnail_position": "below"
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "color_border": "#f4f4f4",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+                "per_row": 4,
+                "rows": 1,
+                "view_all": true
+              }
+            }
+          },
+          "block_order": [
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {}
+        },
+        "1524768368258": {
+          "type": "slideshow",
+          "blocks": {
+            "1524768368258-0": {
+              "type": "image",
+              "settings": {
+                "link": "shopify://collections/all",
+                "link_text": "Shop all",
+                "text_align": "vertical-center horizontal-left",
+                "focal_point": "top center"
+              }
+            }
+          },
+          "block_order": [
+            "1524768368258-0"
+          ],
+          "settings": {
+            "section_height": "750px",
+            "mobile_height": "auto",
+            "parallax": true,
+            "style": "minimal",
+            "autoplay": true,
+            "autoplay_speed": 5
+          }
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": false,
+            "parallax": false
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "1524772785241": {
+              "type": "subcollections",
+              "settings": {}
+            },
+            "1524772580942": {
+              "type": "tags_all",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1524772785241",
+            "1524772580942"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "filter_style": "sidebar",
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1525290496166": {
+          "type": "featured-collections",
+          "blocks": {
+            "1525290496166-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1525290496166-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "1525290496166-1": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1525290496166-0",
+            "1525290496166-2",
+            "1525290496166-1"
+          ],
+          "settings": {
+            "divider": false,
+            "per_row": 3,
+            "enable_gutter": true
+          }
+        },
+        "1525969132569": {
+          "type": "promo-grid",
+          "blocks": {
+            "1525969870126": {
+              "type": "product",
+              "settings": {
+                "link_label": "Shop now",
+                "label": "New",
+                "enable_price": true,
+                "width": "50",
+                "text_size": 100,
+                "color_tint": "#f8ebd4",
+                "color_tint_opacity": 0,
+                "framed": true
+              }
+            },
+            "1525969996422": {
+              "type": "product",
+              "settings": {
+                "link_label": "Shop now",
+                "label": "New",
+                "enable_price": true,
+                "width": "50",
+                "text_size": 100,
+                "color_tint": "#ff0000",
+                "color_tint_opacity": 0,
+                "framed": true
+              }
+            }
+          },
+          "block_order": [
+            "1525969870126",
+            "1525969996422"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 5,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1526048428302": {
+          "type": "featured-collection",
+          "settings": {
+            "per_row": 4,
+            "rows": 1,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "1526048519234": {
+          "type": "newsletter",
+          "settings": {
+            "color_background": "#171615",
+            "color_text": "#ffffff"
+          }
+        },
+        "1526048620689": {
+          "type": "blog-posts",
+          "settings": {
+            "title": "Our blog",
+            "blog": "news",
+            "post_limit": 3,
+            "blog_show_tags": false,
+            "blog_show_date": true,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "view_all": true,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "collection-promotions": {
+          "type": "collection-promotions",
+          "blocks": {
+            "1526501090474": {
+              "type": "advanced",
+              "settings": {
+                "cta_link1": "shopify://collections/all",
+                "width": "50",
+                "height": 400,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1526501130849": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "boxed": false,
+                "framed": true
+              }
+            },
+            "1526501360047": {
+              "type": "banner",
+              "settings": {
+                "label": "Shop 2017",
+                "color_tint": "#514f4b",
+                "color_tint_opacity": 20,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1526501090474",
+            "1526501130849",
+            "1526501360047"
+          ],
+          "settings": {
+            "gutter_size": 20
+          }
+        },
+        "1526480838446": {
+          "type": "background-image-text",
+          "settings": {
+            "button_link": "shopify://collections/all",
+            "focal_point": "center",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 750,
+            "framed": false,
+            "parallax": true
+          }
+        },
+        "1526481284428": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true,
+            "divider": false
+          }
+        },
+        "1526481405629": {
+          "type": "promo-grid",
+          "blocks": {
+            "1526481405629-1": {
+              "type": "advanced",
+              "settings": {
+                "width": "100",
+                "height": 660,
+                "text_size": 120,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "boxed": false,
+                "framed": false
+              }
+            }
+          },
+          "block_order": [
+            "1526481405629-1"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 34,
+            "space_above": false,
+            "space_below": true
+          }
+        }
+      },
+      "content_for_index": [
+        "1524768368258",
+        "1526481284428",
+        "1525969132569",
+        "1525290496166",
+        "1526048428302",
+        "1526480838446",
+        "1499790633921",
+        "1526048519234",
+        "1526048620689",
+        "1526481405629"
+      ]
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".header-wrapper {margin-bottom: 0 !important;}",
+      ".header {padding-top: 0 !important; padding-bottom: 0 !important;}",
+      ".announcement-bar {margin-bottom: 0 !important;}"
+    ]
+  }
+}
