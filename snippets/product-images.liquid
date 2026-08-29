@@ -10,13 +10,17 @@
       <div class="product__main-photos" data-aos data-product-single-media-group>
         <div id="ProductPhotos-{{ section_id }}">
           {%- for media in product.media -%}
+            {%- assign is_featured = false -%}
+            {%- if media.id == featured_media.id -%}
+              {%- assign is_featured = true -%}
+            {%- endif -%}
             {%- include 'media',
               media: media,
               featured_media: featured_media,
               isModal: isModal,
               video_looping: video_looping,
               video_style: video_style,
-              is_first: forloop.first
+              is_first: is_featured
             -%}
           {%- endfor -%}
         </div>
