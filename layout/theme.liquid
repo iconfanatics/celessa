@@ -160,6 +160,19 @@
 {% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}
 
 {% render 'preorder-now' %}
+<script>
+  (function() {
+    var observer = new MutationObserver(function(mutations) {
+      var looxCloseBtns = document.querySelectorAll('.loox-pn-close:not([aria-label])');
+      if (looxCloseBtns.length) {
+        looxCloseBtns.forEach(function(btn) {
+          btn.setAttribute('aria-label', 'Close dialog');
+        });
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  })();
+</script>
 </body>
   <script async src="https://app.kiwisizing.com/web/js/dist/kiwiSizing/plugin/SizingPlugin.prod.js"></script>      
 </html>
