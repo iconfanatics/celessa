@@ -10,7 +10,7 @@
 - **Third-Party App (Loox) Accessibility**: Added a `MutationObserver` script to `layout/theme.liquid` (just before `</body>`) to dynamically inject `aria-label="Close dialog"` on `.loox-pn-close` links and `aria-label="Powered by Loox"` on `.loox-pn-branding` links, ensuring screen readers can announce them properly.
 - **Slick Slider ARIA Fixes (Global Vendor Override)**: Further hardened the Slick accessibility fix by overriding `accessibility: !0` to `accessibility: !1` directly inside the core Slick plugin source (`assets/vendor-scripts-v6.js`) and adding `accessibility: false` to `mainSliderArgs` in `assets/theme.js.liquid`. This ensures zero invalid ARIA attributes are generated for any carousel site-wide.
 - **Product Review Link**: Added `aria-label="Reviews"` to `.product-single__review-link` in `sections/featured-product.liquid` and `snippets/product-template.liquid` to provide discernible text.
-- **Slick Slider ARIA Hidden Focus Fix**: Added a `MutationObserver` in `layout/theme.liquid` to actively monitor and strip the `aria-hidden="true"` attribute from any `.slick-cloned` elements as soon as they are added to the DOM. This provides an unbreakable failsafe to eliminate the "ARIA hidden element must not be focusable" error on product thumbnails, overcoming Slick's hardcoded internal cloning behaviors.
+- **Slick Slider ARIA Hidden Focus Fix**: Expanded the `MutationObserver` in `layout/theme.liquid` to actively monitor and strip the `aria-hidden="true"` attribute from ALL `.slick-slide` elements (not just cloned ones) as soon as they are added to or modified in the DOM. This ensures that no slide is ever improperly hidden while containing focusable elements, completely eliminating the "ARIA hidden element must not be focusable" error on product sliders and thumbnails globally.
 - **Product Image Zoom Button**: Added `aria-label="Zoom image"` to `.product__photo-zoom` in `snippets/media.liquid` to ensure discernible text for screen readers.
 
 ## Note on DevTools & Lighthouse Console Warnings
@@ -31,4 +31,5 @@ None of the above errors affect the theme's code, performance, or real-world use
 - `588034e` - Add note on DevTools warnings to work.md (2026-08-29)
 - `14dba9f` - Fix loox branding accessibility error (2026-08-29)
 - `96118c5` - Fix header ul role, footer newsletter aria-label, and loox popup close button (2026-08-29)
-- `e79fd22` - Fix promo grid link aria, disable slick slider accessibility option natively, update work.md (2026-08-29)
+- `90b6b6a` - Update work.md with previous git commit history (2026-08-29)
+- `bbb339b` - Expand MutationObserver to strip aria-hidden from ALL .slick-slide elements (2026-08-29)
