@@ -175,7 +175,7 @@
           btn.setAttribute('aria-label', 'Powered by Loox');
         });
       }
-      var slickHidden = document.querySelectorAll('.slick-slide[aria-hidden="true"]');
+      var slickHidden = document.querySelectorAll('.slick-slide[aria-hidden="true"], .slick-dots li[aria-hidden="true"]');
       if (slickHidden.length) {
         slickHidden.forEach(function(slide) {
           slide.removeAttribute('aria-hidden');
