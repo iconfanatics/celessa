@@ -217,6 +217,7 @@
           {% when 'sale_collection' %}
             <a
               href="{{ collections[block.settings.sale_collection].url }}"
+              aria-label="{{ collections[block.settings.sale_collection].title | default: 'Sale Collection' }}"
               class="promo-grid__container{% if block.settings.framed and block.settings.boxed == false %} promo-grid__container--framed{% endif %}{% if block.settings.color_tint_opacity > 0 %} promo-grid__container--tint{% endif %} vertical-center horizontal-left">
               {% if block.settings.top_text != blank or block.settings.middle_text != blank or block.settings.bottom_text != blank %}
                 <div class="promo-grid__content{% if block.settings.boxed %} promo-grid__content--boxed{% if block.settings.framed %} promo-grid__content--framed{% endif %}{% endif %}{% if block.settings.width == '50' %} promo-grid__content--small-text{% endif %}">
@@ -347,7 +348,7 @@
           {% when 'image' %}
             <div class="promo-grid__container">
               {% if block.settings.link %}
-                <a href="{{ block.settings.link }}">
+                <a href="{{ block.settings.link }}" aria-label="{{ block.settings.image.alt | default: 'Promotion' }}">
               {% endif %}
                 {% if block.settings.image != blank %}
                   <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
@@ -373,7 +374,7 @@
 
           {% when 'banner' %}
             {% if block.settings.link %}
-              <a href="{{ block.settings.link }}" class="type-banner__link">
+              <a href="{{ block.settings.link }}" class="type-banner__link" aria-label="{{ block.settings.heading | default: 'Banner' }}">
             {% endif %}
               <div class="promo-grid__container{% if block.settings.framed %} promo-grid__container--framed{% endif %}{% if block.settings.color_tint_opacity > 0 %} promo-grid__container--tint{% endif %}">
                 <div class="type-banner__content text-center">
