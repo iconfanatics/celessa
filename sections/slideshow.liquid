@@ -170,7 +170,7 @@
               {% endif %}
 
               {% if link_slide %}
-                <a href="{{ block.settings.link }}" class="hero__slide-link"></a>
+                <a href="{{ block.settings.link }}" class="hero__slide-link" aria-label="{{ block.settings.title | default: block.settings.top_subheading | default: 'Slide link' | escape }}"></a>
               {% endif %}
 
               {% if hero_text %}
