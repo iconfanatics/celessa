@@ -10,7 +10,7 @@
 - **Third-Party App (Loox) Accessibility**: Added a `MutationObserver` script to `layout/theme.liquid` (just before `</body>`) to dynamically inject `aria-label="Close dialog"` on `.loox-pn-close` links and `aria-label="Powered by Loox"` on `.loox-pn-branding` links, ensuring screen readers can announce them properly.
 - **Slick Slider ARIA Fixes (Global Vendor Override)**: Further hardened the Slick accessibility fix by overriding `accessibility: !0` to `accessibility: !1` directly inside the core Slick plugin source (`assets/vendor-scripts-v6.js`) and adding `accessibility: false` to `mainSliderArgs` in `assets/theme.js.liquid`. This ensures zero invalid ARIA attributes are generated for any carousel site-wide.
 - **Product Review Link**: Added `aria-label="Reviews"` to `.product-single__review-link` in `sections/featured-product.liquid` and `snippets/product-template.liquid` to provide discernible text.
-- **Slick Slider ARIA Hidden Focus Fix**: Removed hardcoded `aria-hidden` attribute injection from Slick's source in `assets/vendor-scripts-v6.js` (by renaming the generated attributes). This prevents the "ARIA hidden element must not be focusable" error on product thumbnails since they are no longer marked as hidden to screen readers.
+- **Slick Slider ARIA Hidden Focus Fix**: Added a `MutationObserver` in `layout/theme.liquid` to actively monitor and strip the `aria-hidden="true"` attribute from any `.slick-cloned` elements as soon as they are added to the DOM. This provides an unbreakable failsafe to eliminate the "ARIA hidden element must not be focusable" error on product thumbnails, overcoming Slick's hardcoded internal cloning behaviors.
 - **Product Image Zoom Button**: Added `aria-label="Zoom image"` to `.product__photo-zoom` in `snippets/media.liquid` to ensure discernible text for screen readers.
 
 ## Note on DevTools & Lighthouse Console Warnings
@@ -20,3 +20,15 @@ During testing, you may encounter the following console errors/warnings in Light
 3. **`403 Error / Content Security Policy (shop.app)`**: This is caused by Shopify's internal Content Security Policy blocking the loading of the Shop app or Shop Pay features inside an iframe (often happens while inside the Shopify Theme Editor). 
 
 None of the above errors affect the theme's code, performance, or real-world user experience.
+
+## Git Commit History
+- `2cace36` - Add MutationObserver for slick-cloned aria-hidden fix (2026-08-29)
+- `507bf2a` - Fix slick cloned items retaining aria-hidden attribute using removeAttr (2026-08-29)
+- `8b998d7` - Fix slick ARIA hidden focusable elements and add photo zoom aria-label (2026-08-29)
+- `5fc284b` - Fix remaining slick slider and product review accessibility issues (2026-08-29)
+- `6d162a8` - Revert "Add explicit width and height to images to fix CLS" (2026-08-29)
+- `64fb88e` - Add explicit width and height to images to fix CLS (2026-08-29)
+- `588034e` - Add note on DevTools warnings to work.md (2026-08-29)
+- `14dba9f` - Fix loox branding accessibility error (2026-08-29)
+- `96118c5` - Fix header ul role, footer newsletter aria-label, and loox popup close button (2026-08-29)
+- `e79fd22` - Fix promo grid link aria, disable slick slider accessibility option natively, update work.md (2026-08-29)
