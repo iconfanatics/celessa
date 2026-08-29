@@ -11747,3 +11747,9 @@ variant-csp-swatch .js-csp label.csp-swatch-label {
 span[style*="Nunito Sans"] {
   color: $colorTextBody !important;
 }
+
+/* Fix LCP render delay by overriding AOS hide for main product images */
+.product__main-photos[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+}
