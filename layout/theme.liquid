@@ -184,6 +184,12 @@
           slide.removeAttribute('aria-hidden');
         });
       }
+      var cspLists = document.querySelectorAll('ul.csp-variant-opt:not([role="presentation"])');
+      if (cspLists.length) {
+        cspLists.forEach(function(list) {
+          list.setAttribute('role', 'presentation');
+        });
+      }
     });
     observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['aria-hidden'] });
   })();
