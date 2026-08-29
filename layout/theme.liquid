@@ -9,6 +9,7 @@
   <link rel="canonical" href="{{ canonical_url }}">
   <meta name="format-detection" content="telephone=no">
 
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
   <link rel="preconnect" href="https://fonts.loox.io" crossorigin>
   <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
 
@@ -26,6 +27,8 @@
   {% include 'social-meta-tags' %}
 
   {% include 'font-face' %}
+  
+  <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}" as="style">
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
 
   {% style %}

@@ -151,13 +151,23 @@
 
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-                    <img class="image-fit hero__image hero__image--{{ block.id }} lazyload"
-                      src=""
-                      data-src="{{ img_url }}"
-                      data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                      data-sizes="auto"
-                      data-parent-fit="cover"
-                      alt="{{ block.settings.image.alt | escape }}">
+                    {% if forloop.first %}
+                      <img class="image-fit hero__image hero__image--{{ block.id }}"
+                        src="{{ block.settings.image | img_url: '1200x' }}"
+                        srcset="{{ block.settings.image | img_url: '400x' }} 400w, {{ block.settings.image | img_url: '800x' }} 800w, {{ block.settings.image | img_url: '1200x' }} 1200w"
+                        sizes="100vw"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="eager"
+                        fetchpriority="high">
+                    {% else %}
+                      <img class="image-fit hero__image hero__image--{{ block.id }} lazyload"
+                        src=""
+                        data-src="{{ img_url }}"
+                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        data-parent-fit="cover"
+                        alt="{{ block.settings.image.alt | escape }}">
+                    {% endif %}
                     <noscript>
                       <img class="image-fit hero__image hero__image--{{ block.id }}"
                         src="{{ block.settings.image | img_url: '1200x' }}"
