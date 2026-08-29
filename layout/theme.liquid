@@ -175,10 +175,10 @@
           btn.setAttribute('aria-label', 'Powered by Loox');
         });
       }
-      var slickClones = document.querySelectorAll('.slick-cloned[aria-hidden="true"]');
-      if (slickClones.length) {
-        slickClones.forEach(function(clone) {
-          clone.removeAttribute('aria-hidden');
+      var slickHidden = document.querySelectorAll('.slick-slide[aria-hidden="true"]');
+      if (slickHidden.length) {
+        slickHidden.forEach(function(slide) {
+          slide.removeAttribute('aria-hidden');
         });
       }
     });
