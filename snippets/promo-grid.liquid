@@ -257,11 +257,9 @@
                               data-widths="[360, 540, 720, 900, 1080, 1600]"
                               data-aspectratio="{{ collection_image_1.aspect_ratio }}"
                               data-sizes="auto"
-                              alt="{{ collection_image_1.alt }}"
-                              width="{{ collection_image_1.width }}"
-                              height="{{ collection_image_1.height }}">
+                              alt="{{ collection_image_1.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ collection_image_1 | img_url: '800x' }}" alt="{{ image.alt }}" width="{{ collection_image_1.width }}" height="{{ collection_image_1.height }}">
+                            <img class="lazyloaded" src="{{ collection_image_1 | img_url: '800x' }}" alt="{{ image.alt }}">
                           </noscript>
                         </div>
                       {% endif %}
@@ -276,11 +274,9 @@
                               data-widths="[360, 540, 720, 900, 1080, 1600]"
                               data-aspectratio="{{ collection_image_2.aspect_ratio }}"
                               data-sizes="auto"
-                              alt="{{ collection_image_2.alt }}"
-                              width="{{ collection_image_2.width }}"
-                              height="{{ collection_image_2.height }}">
+                              alt="{{ collection_image_2.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ collection_image_2 | img_url: '800x' }}" alt="{{ image.alt }}" width="{{ collection_image_2.width }}" height="{{ collection_image_2.height }}">
+                            <img class="lazyloaded" src="{{ collection_image_2 | img_url: '800x' }}" alt="{{ image.alt }}">
                           </noscript>
                         </div>
                       {% endif %}
@@ -363,11 +359,9 @@
                         data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                         data-sizes="auto"
                         role="presentation"
-                        alt="{{ block.settings.image.alt }}"
-                        width="{{ block.settings.image.width }}"
-                        height="{{ block.settings.image.height }}">
+                        alt="{{ block.settings.image.alt }}">
                     <noscript>
-                      <img class="lazyloaded" src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.image.alt }}" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}">
+                      <img class="lazyloaded" src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.image.alt }}">
                     </noscript>
                   </div>
                 {% else %}
@@ -394,11 +388,9 @@
                             data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                             data-sizes="auto"
                             role="presentation"
-                            alt="{{ block.settings.image.alt }}"
-                            width="{{ block.settings.image.width }}"
-                            height="{{ block.settings.image.height }}">
+                            alt="{{ block.settings.image.alt }}">
                         <noscript>
-                          <img class="lazyloaded" src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image.alt }}" width="{{ block.settings.image.width }}" height="{{ block.settings.image.height }}">
+                          <img class="lazyloaded" src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image.alt }}">
                         </noscript>
                       </div>
                     </div>
@@ -479,11 +471,9 @@
                                     data-widths="[360, 540, 720, 900, 1080, 1600]"
                                     data-aspectratio="{{ image.aspect_ratio }}"
                                     data-sizes="auto"
-                                    alt="{{ image.alt }}"
-                                    width="{{ image.width }}"
-                                    height="{{ image.height }}">
+                                    alt="{{ image.alt }}">
                                 <noscript>
-                                  <img class="lazyloaded" src="{{ image | img_url: '600x' }}" alt="{{ image.alt }}" width="{{ image.width }}" height="{{ image.height }}">
+                                  <img class="lazyloaded" src="{{ image | img_url: '600x' }}" alt="{{ image.alt }}">
                                 </noscript>
                               </a>
                             </div>
