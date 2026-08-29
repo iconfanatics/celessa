@@ -169,6 +169,12 @@
           btn.setAttribute('aria-label', 'Close dialog');
         });
       }
+      var looxBranding = document.querySelectorAll('.loox-pn-branding:not([aria-label])');
+      if (looxBranding.length) {
+        looxBranding.forEach(function(btn) {
+          btn.setAttribute('aria-label', 'Powered by Loox');
+        });
+      }
     });
     observer.observe(document.body, { childList: true, subtree: true });
   })();

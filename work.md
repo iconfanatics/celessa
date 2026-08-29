@@ -7,4 +7,4 @@
 - **Cleanup**: Removed the previously added `slick-accessibility-fix.liquid` hack as disabling the native slick accessibility option natively resolves the issue more cleanly.
 - **Appropriate ARIA Roles for Navigation**: Removed invalid `role="navigation"` from the `ul` element in `snippets/header-desktop-nav.liquid` to conform to ARIA standards for `ul` tags.
 - **Discernible Text on Newsletter Button**: Added `aria-label` to the submit button (`.footer__newsletter-btn`) in `snippets/footer-newsletter.liquid`.
-- **Third-Party App (Loox) Accessibility**: Added a `MutationObserver` script to `layout/theme.liquid` (just before `</body>`) to dynamically inject `aria-label="Close dialog"` on `.loox-pn-close` links, ensuring screen readers can announce the popup close button.
+- **Third-Party App (Loox) Accessibility**: Added a `MutationObserver` script to `layout/theme.liquid` (just before `</body>`) to dynamically inject `aria-label="Close dialog"` on `.loox-pn-close` links and `aria-label="Powered by Loox"` on `.loox-pn-branding` links, ensuring screen readers can announce them properly.
