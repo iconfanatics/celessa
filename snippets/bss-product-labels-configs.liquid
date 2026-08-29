@@ -1,4 +1,4 @@
-{{ 'bss-file-configdata.js' | asset_url | script_tag }} {{ 'bss-file-configdata-banner.js' | asset_url | script_tag}} {{ 'bss-file-configdata-popup.js' | asset_url | script_tag}}<script>
+<script src="{{ 'bss-file-configdata.js' | asset_url }}" defer="defer"></script> <script src="{{ 'bss-file-configdata-banner.js' | asset_url }}" defer="defer"></script> <script src="{{ 'bss-file-configdata-popup.js' | asset_url }}" defer="defer"></script><script>
                 if (typeof BSS_PL == 'undefined') {
                     var BSS_PL = {};
                 }
