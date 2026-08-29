@@ -7,7 +7,7 @@
     data-has-slideshow="true">
     <div class="product__photos product__photos-{{ section_id }} product__photos--{{ thumbnail_position }}">
 
-      <div class="product__main-photos" data-aos data-product-single-media-group>
+      <div class="product__main-photos" data-product-single-media-group>
         <div id="ProductPhotos-{{ section_id }}">
           {%- for media in product.media -%}
             {%- assign is_featured = false -%}
@@ -50,8 +50,7 @@
         id="ProductThumbs-{{ section_id }}"
         class="product__thumbs product__thumbs--{{ thumbnail_position }} product__thumbs-placement--{{ image_position }} {% if product.media.size == 1 %} medium-up--hide{% endif %} small--hide"
         data-position="{{ thumbnail_position }}"
-        data-arrows="{{ thumbnail_arrows }}"
-        data-aos>
+        data-arrows="{{ thumbnail_arrows }}">
 
         {%- if product.media.size > 1 -%}
           {%- for media in product.media -%}
