@@ -7,7 +7,7 @@
 {% endcomment %}
 
 {%- assign is_featured = false -%}
-{%- if featured_media == media -%}
+{%- if featured_media.id == media.id -%}
   {%- assign is_featured = true -%}
 {%- endif -%}
 
