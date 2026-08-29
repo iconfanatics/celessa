@@ -175,8 +175,14 @@
           btn.setAttribute('aria-label', 'Powered by Loox');
         });
       }
+      var slickClones = document.querySelectorAll('.slick-cloned[aria-hidden="true"]');
+      if (slickClones.length) {
+        slickClones.forEach(function(clone) {
+          clone.removeAttribute('aria-hidden');
+        });
+      }
     });
-    observer.observe(document.body, { childList: true, subtree: true });
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['aria-hidden'] });
   })();
 </script>
 </body>
