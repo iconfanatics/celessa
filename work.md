@@ -16,3 +16,6 @@ During testing, you may encounter the following console errors/warnings in Light
 3. **`403 Error / Content Security Policy (shop.app)`**: This is caused by Shopify's internal Content Security Policy blocking the loading of the Shop app or Shop Pay features inside an iframe (often happens while inside the Shopify Theme Editor). 
 
 None of the above errors affect the theme's code, performance, or real-world user experience.
+
+## Performance Optimization (Speed & CLS)
+- **Explicit Image Dimensions**: Added `width` and `height` attributes to the lazyloaded images in `snippets/promo-grid.liquid` and the mobile/desktop logos in `snippets/header-logo-block.liquid`. This resolves the "Image elements do not have explicit width and height" Lighthouse issue, preventing Cumulative Layout Shift (CLS) and ensuring the browser reserves the correct space before the images fully load.
