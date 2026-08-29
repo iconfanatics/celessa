@@ -87,7 +87,7 @@
               {% else %}
                 {%- assign review_link = '#Reviews-' | append: product.id -%}
               {%- endif -%}
-              <a href="{{ review_link }}" class="product-single__review-link">
+              <a href="{{ review_link }}" class="product-single__review-link" aria-label="Reviews">
                 <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
               </a>
             {%- endif -%}

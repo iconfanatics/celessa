@@ -67,7 +67,7 @@
 
           {%- if settings.enable_product_reviews -%}
             {%- assign review_link = product.url | within: collection | append: '#Reviews-' | append: product.id -%}
-            <a href="{{ review_link }}" class="product-single__review-link">
+            <a href="{{ review_link }}" class="product-single__review-link" aria-label="Reviews">
               <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
             </a>
           {%- endif -%}
