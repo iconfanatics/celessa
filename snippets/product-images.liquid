@@ -11,7 +11,7 @@
         <div id="ProductPhotos-{{ section_id }}">
           {%- for media in product.media -%}
             {%- assign is_featured = false -%}
-            {%- if media.id == featured_media.id -%}
+            {%- if media.id == featured_media.id or forloop.index <= 3 -%}
               {%- assign is_featured = true -%}
             {%- endif -%}
             {%- include 'media',

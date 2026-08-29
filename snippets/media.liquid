@@ -82,7 +82,8 @@
             data-photoswipe-height="{{ media_height }}"
             data-index="{{ forloop.index }}"
             alt="{{ media.alt | escape | split: '#' | first }}"
-            loading="eager">
+            loading="eager"
+            fetchpriority="high">
         {%- else -%}
           <img class="{% if settings.product_zoom_enable %}photoswipe__image{% endif %} lazyload"
             data-photoswipe-src="{{ zoom_img_url }}"
