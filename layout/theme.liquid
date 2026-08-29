@@ -87,7 +87,7 @@
   {%- endif -%}
   {% include 'judgeme_core' %}
 
-	{{ shop.metafields.loox["global_html_head"] }}
+	{{ shop.metafields.loox["global_html_head"] | replace: 'fonts.loox.io/css?', 'fonts.loox.io/css?display=swap&' | replace: 'fonts.loox.io/css"', 'fonts.loox.io/css?display=swap"' }}
 
                   {% include 'bss-product-labels-configs' %}
                     
@@ -190,8 +190,14 @@
           list.setAttribute('role', 'presentation');
         });
       }
+      var looxFonts = document.querySelectorAll('link[href*="fonts.loox.io/css"]:not([href*="display=swap"])');
+      if (looxFonts.length) {
+        looxFonts.forEach(function(link) {
+          link.href = link.href + (link.href.includes('?') ? '&' : '?') + 'display=swap';
+        });
+      }
     });
-    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['aria-hidden'] });
+    observer.observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['aria-hidden'] });
   })();
 </script>
 </body>
