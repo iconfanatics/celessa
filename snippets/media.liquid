@@ -73,23 +73,30 @@
           {{ media.preview_image | img_url: '1080x' }} 1080w
         {%- endcapture -%}
 
-        <img class="{% if settings.product_zoom_enable %}photoswipe__image{% endif %} lazyload"
-          {% if is_first %}
+        {%- if is_first -%}
+          <img class="{% if settings.product_zoom_enable %}photoswipe__image{% endif %} lazyloaded"
             src="{{ media.preview_image | img_url: '720x' }}"
             srcset="{{ image_srcset }}"
             sizes="(min-width: 769px) 50vw, 100vw"
             loading="eager"
             fetchpriority="high"
-          {% endif %}
-          data-photoswipe-src="{{ zoom_img_url }}"
-          data-photoswipe-width="{{ media_width }}"
-          data-photoswipe-height="{{ media_height }}"
-          data-index="{{ forloop.index }}"
-          data-src="{{ img_url }}"
-          data-widths="[360, 540, 720, 900, 1080]"
-          data-aspectratio="{{ media_aspect_ratio }}"
-          data-sizes="auto"
-          alt="{{ media.alt | escape | split: '#' | first }}">
+            data-photoswipe-src="{{ zoom_img_url }}"
+            data-photoswipe-width="{{ media_width }}"
+            data-photoswipe-height="{{ media_height }}"
+            data-index="{{ forloop.index }}"
+            alt="{{ media.alt | escape | split: '#' | first }}">
+        {%- else -%}
+          <img class="{% if settings.product_zoom_enable %}photoswipe__image{% endif %} lazyload"
+            data-photoswipe-src="{{ zoom_img_url }}"
+            data-photoswipe-width="{{ media_width }}"
+            data-photoswipe-height="{{ media_height }}"
+            data-index="{{ forloop.index }}"
+            data-src="{{ img_url }}"
+            data-widths="[360, 540, 720, 900, 1080]"
+            data-aspectratio="{{ media_aspect_ratio }}"
+            data-sizes="auto"
+            alt="{{ media.alt | escape | split: '#' | first }}">
+        {%- endif -%}
 
         {%- if settings.product_zoom_enable and media.media_type == 'image' -%}
           <button type="button" class="btn btn--body btn--circle js-photoswipe__zoom product__photo-zoom" aria-label="Zoom image">
