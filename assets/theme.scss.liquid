@@ -11752,4 +11752,12 @@ span[style*="Nunito Sans"] {
 .product__main-photos[data-aos] {
   opacity: 1 !important;
   transform: none !important;
+  visibility: visible !important;
+}
+
+/* Force LCP image visible immediately without waiting for Slick/AOS JS init */
+.product__main-photos .starting-slide img {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
