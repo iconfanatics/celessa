@@ -77,7 +77,7 @@
     {% endcase %}
 
     {%- for product in collection.products -%}
-      {%- include 'product-grid-item' -%}
+      {%- render 'product-grid-item', product: product, grid_item_width: grid_item_width, per_row: per_row -%}
     {%- else -%}
       <div class="grid__item">
         <p>{{ 'collections.general.no_matches' | t }}</p>
