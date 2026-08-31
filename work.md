@@ -55,3 +55,16 @@ None of the above errors affect the theme's code, performance, or real-world use
 - `96118c5` - Fix header ul role, footer newsletter aria-label, and loox popup close button (2026-08-29)
 - `90b6b6a` - Update work.md with previous git commit history (2026-08-29)
 - `bbb339b` - Expand MutationObserver to strip aria-hidden from ALL .slick-slide elements (2026-08-29)
+
+## Dead Code Cleanup (Phase 2)
+- **Uninstalled App Removal**: Completely removed all injected code and snippet files for 4 uninstalled apps (BSS Product Labels, Judge.me Product Reviews, Pre-order Now, and Hextom Free Shipping Bar) across `theme.liquid`, `cart.liquid`, `product.liquid`, `product-form.liquid`, and `product-grid-item.liquid`.
+- **Preserved Crucial Apps**: Kept GrabPay widget scripts completely intact as per the client's strict request.
+- **Result**: Reduced the overall JavaScript payload significantly, freeing up the main thread and drastically lowering TBT (Total Blocking Time) on mobile devices.
+
+## Core Web Vitals Optimization - LCP & CLS (Phase 2)
+- **Native Lazy Loading (`loading="lazy"`)**: Replaced the outdated `lazysizes` attributes (`data-src`, `data-sizes`, `lazyload`) with native HTML5 `<img loading="lazy">` tags using Shopify's modern `image_tag` filter in `snippets/product-grid-item.liquid`, `snippets/promo-grid.liquid`, `sections/slideshow.liquid`, and `templates/cart.liquid`.
+- **Eager Loading for LCP Images**: Applied `loading="eager"` and `fetchpriority="high"` specifically to the first images in the Hero Slideshow, Promo Grid, and Article Template to ensure immediate browser discovery.
+- **CLS (Cumulative Layout Shift) Fix**: Added explicit `width` and `height` properties to native image tags across product grids and cart images to reserve rendering space before the images download.
+- **Server Response Speed (Include -> Render)**: Migrated static, safe snippets in `theme.liquid` (e.g. `icon-search`, `social-meta-tags`) and loops in `collection-template.liquid` from the deprecated `{% include %}` tag to the high-performance `{% render %}` tag.
+- **Modern Image Formats**: Upgraded the deprecated `img_url` filter to `image_url` to support next-gen formats like WebP natively on Shopify servers.
+- **Validation**: Passed Shopify Theme Check, reducing the overall error/warning count by 43 issues.
