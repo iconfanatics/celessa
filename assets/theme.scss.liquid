@@ -6924,11 +6924,11 @@ $slick-opacity-not-active: 0.18;
     button {
       border: 0;
       background: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 48px;
+      display: block;
+      min-width: 48px !important;
+      min-height: 48px !important;
       width: 48px;
+      height: 48px;
       line-height: 0px;
       font-size: 0px;
       color: transparent;
@@ -6941,8 +6941,9 @@ $slick-opacity-not-active: 0.18;
       }
       &:before {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         content: $slick-dot-character;
         width: 20px;
         height: 20px;
@@ -7264,13 +7265,13 @@ $slideshow-dot-size: 6px;
 
 $slideshow-dot-size-large: 8px;
 
-$slideshow-bar-hit-area: 18px;
+$slideshow-bar-hit-area: 48px;
 
 $slideshow-bar-height: 4px;
 
 $slideshow-bar-width: 150px;
 
-$slideshow-bar-width-small: 40px;
+$slideshow-bar-width-small: 48px;
 
 .slick-slider,
 .product__photo-dots {
@@ -7285,8 +7286,7 @@ $slideshow-bar-width-small: 40px;
     // Inactive dot
     li,
     li button {
-      width: $slideshow-dot-size;
-      height: $slideshow-dot-size;
+      // Keep 48x48 touch target
     }
 
     li button::before {
@@ -7297,7 +7297,9 @@ $slideshow-bar-width-small: 40px;
 
     // Active dot
     li.slick-active,
-    li.slick-active button,
+    li.slick-active button {
+      opacity: 1;
+    }
     li.slick-active button::before {
       width: $slideshow-dot-size-large;
       height: $slideshow-dot-size-large;
