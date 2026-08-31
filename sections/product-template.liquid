@@ -13,7 +13,7 @@
 
 {% if settings.enable_product_reviews and settings.reviews_layout == 'full' %}
   <hr id="Reviews-{{ product.id }}" class="hr--clear">
-  <div class="index-section product-reviews product-reviews--full">{% render 'preorder-now-collection-item', product: product %}
+  <div class="index-section product-reviews product-reviews--full">
     <div class="page-width">
       <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
     </div>

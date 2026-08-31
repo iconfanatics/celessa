@@ -71,8 +71,7 @@
     </div>
   {%- endif -%}
 
-  {%- assign enable_dynamic_buttons = false -%}
-  {% if settings.enable_payment_button and template != 'product.preorder' %}
+  {% if settings.enable_payment_button %}
     {%- assign enable_dynamic_buttons = true -%}
   {% endif %}
 
@@ -88,11 +87,7 @@
       {% unless current_variant.available %} disabled="disabled"{% endunless %}>
       <span id="AddToCartText-{{ section_id }}">
         {% if current_variant.available %}
-          {% if template == 'product.preorder' %}
-            {{ 'products.product.preorder' | t }}
-          {% else %}
-            {{ 'products.product.add_to_cart' | t }}
-          {% endif %}
+          {{ 'products.product.add_to_cart' | t }}
         {% else %}
           {{ 'products.product.sold_out' | t }}
         {% endif %}

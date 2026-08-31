@@ -26,7 +26,7 @@
   {% endif %}
   {% unless isModal %}
     data-enable-history-state="true"
-  {% endunless %}>{% render 'preorder-now-collection-item', product: product %}
+  {% endunless %}>
 
   {%- include 'product-template-variables' -%}
 
@@ -79,7 +79,7 @@
 
             
 {% comment %}Start automatically added Judge.me widget{% endcomment %}
-  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
+
 {% comment %}End automatically added Judge.me widget{% endcomment %}
 {%- if settings.enable_product_reviews and settings.reviews_layout == 'expandable' -%}
               {%- if isModal -%}
@@ -285,7 +285,7 @@
       {%- endif -%}
     
 {% comment %}Start automatically added Judge.me widget{% endcomment %}
-  {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, product: product %}
+
 {% comment %}End automatically added Judge.me widget{% endcomment %}
 </div>
   </div>

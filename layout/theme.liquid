@@ -87,12 +87,10 @@
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
-  {% include 'judgeme_core' %}
 
 	{{ shop.metafields.loox["global_html_head"] | replace: 'fonts.loox.io/css?', 'fonts.loox.io/css?display=swap&' | replace: 'fonts.loox.io/css"', 'fonts.loox.io/css?display=swap"' }}
 
-                  {% include 'bss-product-labels-configs' %}
-                    
+
 
 
 
@@ -155,16 +153,11 @@
     {% include 'recently-viewed-product-template' %}
   {% endif %}
 
-<!-- **BEGIN** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
-    {% render 'hextom_fsb_main', product: product, customer: customer %}
-    <!-- **END** Hextom FSB Integration // Main Include - DO NOT MODIFY -->
+
  {% include 'smile-initializer' %}
 
 
 	{{ shop.metafields.loox["global_html_body"] }}
-{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}
-
-{% render 'preorder-now' %}
 <script>
   (function() {
     var observer = new MutationObserver(function(mutations) {
