@@ -402,9 +402,27 @@
                   <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     {% if rendered_blocks <= 2 %}
-                      {{ block.settings.image | image_url: width: 1600 | image_tag: loading: 'eager', fetchpriority: 'high', sizes: '100vw', widths: '360, 540, 720, 900, 1080, 1600', role: 'presentation', alt: block.settings.image.alt }}
+                      <img class="lazyloaded"
+                          src="{{ block.settings.image | img_url: '900x' }}"
+                          srcset="{{ block.settings.image | img_url: '360x' }} 360w,
+                                  {{ block.settings.image | img_url: '540x' }} 540w,
+                                  {{ block.settings.image | img_url: '720x' }} 720w,
+                                  {{ block.settings.image | img_url: '900x' }} 900w,
+                                  {{ block.settings.image | img_url: '1080x' }} 1080w,
+                                  {{ block.settings.image | img_url: '1600x' }} 1600w"
+                          sizes="100vw"
+                          loading="eager"
+                          fetchpriority="high"
+                          role="presentation"
+                          alt="{{ block.settings.image.alt | escape }}">
                     {% else %}
-                      {{ block.settings.image | image_url: width: 1600 | image_tag: loading: 'lazy', sizes: '100vw', widths: '360, 540, 720, 900, 1080, 1600', role: 'presentation', alt: block.settings.image.alt }}
+                      <img class="lazyload"
+                          data-src="{{ img_url }}"
+                          data-widths="[360, 540, 720, 900, 1080, 1600]"
+                          data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                          data-sizes="auto"
+                          role="presentation"
+                          alt="{{ block.settings.image.alt | escape }}">
                     {% endif %}
                     <noscript>
                       <img class="lazyloaded" src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.image.alt }}">
