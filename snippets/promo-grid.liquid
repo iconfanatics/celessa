@@ -40,6 +40,7 @@
   }
 {% endstyle %}
 
+{% assign rendered_blocks = 0 %}
 <div class="promo-grid{% if section.settings.space_above %} promo-grid--space-top{% endif %}{% if section.settings.space_below %} promo-grid--space-bottom{% endif %}">
   <div class="flex-grid flex-grid--gutters flex-grid--{{ section.id }}">
     {% for block in section.blocks limit: collection_limit %}
@@ -50,8 +51,9 @@
             {% continue %}
           {% endif %}
         {% endif %}
-
       {% endif %}
+
+      {% assign rendered_blocks = rendered_blocks | plus: 1 %}
 
       {% style %}
         {% if block.settings.height %}
@@ -161,7 +163,7 @@
 
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-                    {% if forloop.index <= 2 %}
+                    {% if rendered_blocks <= 2 %}
                       <img
                         class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyloaded"
                         src="{{ block.settings.image | img_url: '900x' }}"
@@ -268,12 +270,27 @@
                       {% if collection_image_1 != blank %}
                         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: collection_image_1.aspect_ratio }}%;">
                           {%- assign img_url = collection_image_1 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                          <img class="lazyload"
-                              data-src="{{ img_url }}"
-                              data-widths="[360, 540, 720, 900, 1080, 1600]"
-                              data-aspectratio="{{ collection_image_1.aspect_ratio }}"
-                              data-sizes="auto"
-                              alt="{{ collection_image_1.alt }}">
+                          {% if rendered_blocks <= 2 %}
+                            <img class="lazyloaded"
+                                src="{{ collection_image_1 | img_url: '900x' }}"
+                                srcset="{{ collection_image_1 | img_url: '360x' }} 360w,
+                                        {{ collection_image_1 | img_url: '540x' }} 540w,
+                                        {{ collection_image_1 | img_url: '720x' }} 720w,
+                                        {{ collection_image_1 | img_url: '900x' }} 900w,
+                                        {{ collection_image_1 | img_url: '1080x' }} 1080w,
+                                        {{ collection_image_1 | img_url: '1600x' }} 1600w"
+                                sizes="50vw"
+                                loading="eager"
+                                fetchpriority="high"
+                                alt="{{ collection_image_1.alt | escape }}">
+                          {% else %}
+                            <img class="lazyload"
+                                data-src="{{ img_url }}"
+                                data-widths="[360, 540, 720, 900, 1080, 1600]"
+                                data-aspectratio="{{ collection_image_1.aspect_ratio }}"
+                                data-sizes="auto"
+                                alt="{{ collection_image_1.alt | escape }}">
+                          {% endif %}
                           <noscript>
                             <img class="lazyloaded" src="{{ collection_image_1 | img_url: '800x' }}" alt="{{ image.alt }}">
                           </noscript>
@@ -285,12 +302,27 @@
                       {% if collection_image_2 != blank %}
                         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: collection_image_2.aspect_ratio }}%;">
                           {%- assign img_url = collection_image_2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                          <img class="lazyload"
-                              data-src="{{ img_url }}"
-                              data-widths="[360, 540, 720, 900, 1080, 1600]"
-                              data-aspectratio="{{ collection_image_2.aspect_ratio }}"
-                              data-sizes="auto"
-                              alt="{{ collection_image_2.alt }}">
+                          {% if rendered_blocks <= 2 %}
+                            <img class="lazyloaded"
+                                src="{{ collection_image_2 | img_url: '900x' }}"
+                                srcset="{{ collection_image_2 | img_url: '360x' }} 360w,
+                                        {{ collection_image_2 | img_url: '540x' }} 540w,
+                                        {{ collection_image_2 | img_url: '720x' }} 720w,
+                                        {{ collection_image_2 | img_url: '900x' }} 900w,
+                                        {{ collection_image_2 | img_url: '1080x' }} 1080w,
+                                        {{ collection_image_2 | img_url: '1600x' }} 1600w"
+                                sizes="50vw"
+                                loading="eager"
+                                fetchpriority="high"
+                                alt="{{ collection_image_2.alt | escape }}">
+                          {% else %}
+                            <img class="lazyload"
+                                data-src="{{ img_url }}"
+                                data-widths="[360, 540, 720, 900, 1080, 1600]"
+                                data-aspectratio="{{ collection_image_2.aspect_ratio }}"
+                                data-sizes="auto"
+                                alt="{{ collection_image_2.alt | escape }}">
+                          {% endif %}
                           <noscript>
                             <img class="lazyloaded" src="{{ collection_image_2 | img_url: '800x' }}" alt="{{ image.alt }}">
                           </noscript>
@@ -369,7 +401,7 @@
                 {% if block.settings.image != blank %}
                   <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                    {% if forloop.index <= 2 %}
+                    {% if rendered_blocks <= 2 %}
                       <img class="lazyloaded"
                           src="{{ block.settings.image | img_url: '900x' }}"
                           srcset="{{ block.settings.image | img_url: '360x' }} 360w,
@@ -414,13 +446,26 @@
                     <div class="type-banner__image">
                       <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
                         {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                        <img class="lazyload"
-                            data-src="{{ img_url }}"
-                            data-widths="[180, 360, 460]"
-                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                            data-sizes="auto"
-                            role="presentation"
-                            alt="{{ block.settings.image.alt }}">
+                        {% if rendered_blocks <= 2 %}
+                          <img class="lazyloaded"
+                              src="{{ block.settings.image | img_url: '460x' }}"
+                              srcset="{{ block.settings.image | img_url: '180x' }} 180w,
+                                      {{ block.settings.image | img_url: '360x' }} 360w,
+                                      {{ block.settings.image | img_url: '460x' }} 460w"
+                              sizes="100vw"
+                              loading="eager"
+                              fetchpriority="high"
+                              role="presentation"
+                              alt="{{ block.settings.image.alt | escape }}">
+                        {% else %}
+                          <img class="lazyload"
+                              data-src="{{ img_url }}"
+                              data-widths="[180, 360, 460]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              role="presentation"
+                              alt="{{ block.settings.image.alt | escape }}">
+                        {% endif %}
                         <noscript>
                           <img class="lazyloaded" src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image.alt }}">
                         </noscript>
@@ -498,12 +543,27 @@
                             <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: image.aspect_ratio }}%;">
                               {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                               <a href="{{ product.url }}">
-                                <img class="lazyload"
-                                    data-src="{{ img_url }}"
-                                    data-widths="[360, 540, 720, 900, 1080, 1600]"
-                                    data-aspectratio="{{ image.aspect_ratio }}"
-                                    data-sizes="auto"
-                                    alt="{{ image.alt }}">
+                                {% if rendered_blocks <= 2 %}
+                                  <img class="lazyloaded"
+                                      src="{{ image | img_url: '900x' }}"
+                                      srcset="{{ image | img_url: '360x' }} 360w,
+                                              {{ image | img_url: '540x' }} 540w,
+                                              {{ image | img_url: '720x' }} 720w,
+                                              {{ image | img_url: '900x' }} 900w,
+                                              {{ image | img_url: '1080x' }} 1080w,
+                                              {{ image | img_url: '1600x' }} 1600w"
+                                      sizes="50vw"
+                                      loading="eager"
+                                      fetchpriority="high"
+                                      alt="{{ image.alt | escape }}">
+                                {% else %}
+                                  <img class="lazyload"
+                                      data-src="{{ img_url }}"
+                                      data-widths="[360, 540, 720, 900, 1080, 1600]"
+                                      data-aspectratio="{{ image.aspect_ratio }}"
+                                      data-sizes="auto"
+                                      alt="{{ image.alt | escape }}">
+                                {% endif %}
                                 <noscript>
                                   <img class="lazyloaded" src="{{ image | img_url: '600x' }}" alt="{{ image.alt }}">
                                 </noscript>
