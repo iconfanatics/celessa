@@ -71,3 +71,9 @@ None of the above errors affect the theme's code, performance, or real-world use
 
 > [!WARNING]
 > **Rollback Notice (2026-08-31)**: The "Core Web Vitals Optimization - LCP & CLS (Phase 2)" commit was **reverted** because the native `image_tag` structure conflicted with the theme's legacy `lazysizes` polyfill and `Slick slider` initialization JavaScript. Removing the `.lazyload` and `.lazyloaded` classes prevented the main hero banners from initializing (remaining invisible) and disrupted the container aspect ratios, causing images to stretch. We have rolled back to the original `lazysizes` implementation to preserve storefront functionality and design.
+
+## Post-Rollback Fixes & Mobile Performance Optimization (Phase 3)
+After reverting the native `image_tag` changes due to Javascript slider conflicts, the following safe optimizations and fixes were applied:
+- `10cf1c9` - **Server Response Optimization**: Re-applied the `{% include %}` to `{% render %}` tag migration for static snippets in `theme.liquid` and `collection-template.liquid`. This improves TTFB (Time to First Byte) without affecting the UI.
+- `aca8bc3` - **Accessibility Title Fix**: Refactored `snippets/seo-title.liquid` to directly output the title string instead of capturing it as a variable. This allowed us to use `{% render 'seo-title' %}` directly inside the `<title>` tag, fixing the Lighthouse Accessibility error ("Documents must have `<title>` element") that occurred because `render` scopes do not leak variables to the parent file.
+- `8678635` - **TBT Optimization (Kiwi Sizing)**: Changed the loading strategy of the `Kiwi Sizing` third-party app script in `theme.liquid` from `async` to `defer`. This prevents the script from blocking the main thread during initial page load, significantly improving the mobile Total Blocking Time (TBT).
