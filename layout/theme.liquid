@@ -156,7 +156,10 @@
  {% render 'smile-initializer' %}
 
 
-	{{ shop.metafields.loox["global_html_body"] }}
+	{% capture loox_body %}
+	  {{ shop.metafields.loox["global_html_body"] }}
+	{% endcapture %}
+	{{ loox_body | replace: '<script', '<script type="lazy-loox"' }}
 <script>
   (function() {
     var observer = new MutationObserver(function(mutations) {
@@ -195,5 +198,34 @@
   })();
 </script>
 </body>
-  <script defer src="https://app.kiwisizing.com/web/js/dist/kiwiSizing/plugin/SizingPlugin.prod.js"></script>      
+<script>
+  // Phase 4: User Interaction Based App Deferral (Kiwi Sizing & Loox)
+  (function() {
+    var appsLoaded = false;
+    var loadApps = function() {
+      if (appsLoaded) return;
+      appsLoaded = true;
+      
+      // 1. Load Kiwi Sizing
+      var kiwi = document.createElement('script');
+      kiwi.src = "https://app.kiwisizing.com/web/js/dist/kiwiSizing/plugin/SizingPlugin.prod.js";
+      document.body.appendChild(kiwi);
+      
+      // 2. Load Loox Reviews
+      var looxScripts = document.querySelectorAll('script[type="lazy-loox"]');
+      looxScripts.forEach(function(s) {
+        var newScript = document.createElement('script');
+        Array.from(s.attributes).forEach(function(attr) {
+          if (attr.name !== 'type') newScript.setAttribute(attr.name, attr.value);
+        });
+        if (s.innerHTML) newScript.innerHTML = s.innerHTML;
+        document.body.appendChild(newScript);
+      });
+    };
+    
+    ['scroll', 'mousemove', 'touchstart'].forEach(function(event) {
+      window.addEventListener(event, loadApps, { once: true, passive: true });
+    });
+  })();
+</script>
 </html>
