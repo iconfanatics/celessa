@@ -5987,8 +5987,9 @@ $predictiveGap: 10px;
 .js-qty__wrapper {
   display: inline-block;
   position: relative;
-  max-width: 100px;
-  min-width: 75px;
+  max-width: 140px;
+  min-width: 120px;
+  min-height: 48px;
   overflow: visible;
   background-color: $colorInputBg;
   color: color-control($colorInputBg, 1);
@@ -5999,7 +6000,8 @@ $predictiveGap: 10px;
   background: none;
   text-align: center;
   width: 100%;
-  padding: 8px 25px;
+  padding: 12px 48px;
+  min-height: 48px;
   margin: 0;
   z-index: 1;
 }
@@ -6007,14 +6009,17 @@ $predictiveGap: 10px;
 .js-qty__adjust {
   cursor: pointer;
   position: absolute;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
   bottom: 0;
+  width: 48px;
   border: 0 none;
   background: none;
   text-align: center;
   overflow: hidden;
-  padding: 0 5px;
+  padding: 0;
   line-height: 1;
   -webkit-user-select: none;
       -ms-user-select: none;
@@ -6911,21 +6916,23 @@ $slick-opacity-not-active: 0.18;
   li {
     position: relative;
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    margin: 0 5px;
+    height: 48px;
+    width: 48px;
+    margin: 0;
     padding: 0;
     cursor: pointer;
     button {
       border: 0;
       background: transparent;
-      display: block;
-      height: 20px;
-      width: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 48px;
+      width: 48px;
       line-height: 0px;
       font-size: 0px;
       color: transparent;
-      padding: 5px;
+      padding: 0;
       cursor: pointer;
       &:hover, &:focus {
         &:before {

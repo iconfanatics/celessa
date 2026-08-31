@@ -7,6 +7,7 @@
 - **App Script Deferral**: Appended `defer="defer"` to the heaviest third-party synchronous scripts (BSS Product Labels in `snippets/bss-product-label-js.liquid` and Preorder Now in `snippets/preorder-now.liquid`). This allows the browser to parse HTML without blocking, drastically reducing Total Blocking Time (TBT).
 
 ## Accessibility Fixes (Agentic Browsing)
+- **Touch Target Size Fixes**: Increased the touch target size of Slick Slider pagination dots (`.slick-dots li button`) and Product Quantity adjusters (`.js-qty__adjust`) to a minimum of 48x48 pixels to pass WCAG touch target size and spacing requirements.
 - **Discernible Text on Slider Links**: Added `aria-label` to `.hero__slide-link` in `sections/slideshow.liquid` and `snippets/page-block-image-hero.liquid` to ensure screen readers can read where the slide links to.
 - **Slick Slider ARIA Fixes**: Disabled slick slider's automatic accessibility attributes globally by setting `accessibility: false` in `assets/theme.js.liquid`. This prevents slick from injecting invalid ARIA states (`role="presentation"` with `aria-selected`, missing accessible names on `listbox`).
 - **Discernible Text on Promo Grid Links**: Added `aria-label` to anchor tags wrapping promotional images in `snippets/promo-grid.liquid` (covering `sale_collection`, `image`, and `banner` blocks).
