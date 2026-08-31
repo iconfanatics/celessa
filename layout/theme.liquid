@@ -16,16 +16,16 @@
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {%- endif -%}
 
-  {% include 'seo-title' %}
+  {% render 'seo-title' %}
   <title>{{ seo_title }}</title>
 
   {%- if page_description -%}
   <meta name="description" content="{{ page_description | escape }}">
   {%- endif -%}
 
-  {% include 'social-meta-tags' %}
+  {% render 'social-meta-tags' %}
 
-  {% include 'font-face' %}
+  {% render 'font-face' %}
   
   <link rel="preload" href="{{ 'theme.scss.css' | asset_url }}" as="style">
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
@@ -95,7 +95,7 @@
 
 
 
-{%include 'grab_widget_settings'%}
+{%render 'grab_widget_settings'%}
 
 
 
@@ -126,7 +126,7 @@
   {% section 'newsletter-popup' %}
 
   {%- if settings.cart_type == 'drawer' -%}
-    {%- include 'ajax-cart-template' -%}
+    {%- render 'ajax-cart-template' -%}
   {%- endif -%}
 
   {% comment %}
@@ -144,17 +144,17 @@
   </div>
 
   {%- if settings.predictive_search_enabled -%}
-    {%- include 'predictive-template' -%}
+    {%- render 'predictive-template' -%}
   {%- endif -%}
 
-  {% include 'video-modal' %}
-  {% include 'photoswipe-template' %}
+  {% render 'video-modal' %}
+  {% render 'photoswipe-template' %}
   {% if template contains 'product' %}
-    {% include 'recently-viewed-product-template' %}
+    {% render 'recently-viewed-product-template' %}
   {% endif %}
 
 
- {% include 'smile-initializer' %}
+ {% render 'smile-initializer' %}
 
 
 	{{ shop.metafields.loox["global_html_body"] }}
