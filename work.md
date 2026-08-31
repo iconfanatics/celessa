@@ -68,3 +68,6 @@ None of the above errors affect the theme's code, performance, or real-world use
 - **Server Response Speed (Include -> Render)**: Migrated static, safe snippets in `theme.liquid` (e.g. `icon-search`, `social-meta-tags`) and loops in `collection-template.liquid` from the deprecated `{% include %}` tag to the high-performance `{% render %}` tag.
 - **Modern Image Formats**: Upgraded the deprecated `img_url` filter to `image_url` to support next-gen formats like WebP natively on Shopify servers.
 - **Validation**: Passed Shopify Theme Check, reducing the overall error/warning count by 43 issues.
+
+> [!WARNING]
+> **Rollback Notice (2026-08-31)**: The "Core Web Vitals Optimization - LCP & CLS (Phase 2)" commit was **reverted** because the native `image_tag` structure conflicted with the theme's legacy `lazysizes` polyfill and `Slick slider` initialization JavaScript. Removing the `.lazyload` and `.lazyloaded` classes prevented the main hero banners from initializing (remaining invisible) and disrupted the container aspect ratios, causing images to stretch. We have rolled back to the original `lazysizes` implementation to preserve storefront functionality and design.
