@@ -310,17 +310,17 @@
           "image_4bWQqq": {
             "type": "image",
             "settings": {
-              "top_subheading": "",
-              "title": "",
-              "title_size": 80,
-              "subheading": "",
+              "top_subheading": "NEW",
+              "title": "CURVY SCOOP",
+              "title_size": 53,
+              "subheading": "Just the RIGHT PUSH.",
               "link": "shopify://products/curvy-scoop-push-up-seamless-strapless-bra",
-              "link_text": "",
+              "link_text": "RM30 OFF",
               "link_2": "",
               "link_text_2": "",
-              "color_accent": "rgba(0,0,0,0)",
+              "color_accent": "#FFFFFF",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify://shop_images/Mainpage_banner_46.png",
+              "image": "shopify://shop_images/Mainpage_banner_47.png",
               "focal_point": "center center"
             }
           },
@@ -1651,6 +1651,7 @@
           },
           "image_3Yeezi": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Mainpage_banner_31.png",
               "link": "shopify://collections/mix-match-all-sleepwear-collection-2-sets-for-rm250",

@@ -1,5 +1,11 @@
 # Theme Accessibility & Performance Work Log
 
+## Performance Optimizations
+- **CSS Preloading & Resource Hints**: Added `<link rel="preload" as="style">` for `theme.scss.css` and `<link rel="preconnect">` for Shopify CDN in `layout/theme.liquid` to improve the critical rendering path.
+- **Header Logo LCP**: Added `loading="eager"` and `fetchpriority="high"` to both desktop, mobile, and inverted logo images in `snippets/header-logo-block.liquid` to ensure the logo renders immediately.
+- **Slideshow LCP**: Updated `sections/slideshow.liquid` to apply `loading="eager"`, `fetchpriority="high"`, and standard `srcset` to the very first slide image, bypassing lazysizes for the critical above-the-fold content on the homepage.
+- **App Script Deferral**: Appended `defer="defer"` to the heaviest third-party synchronous scripts (BSS Product Labels in `snippets/bss-product-label-js.liquid` and Preorder Now in `snippets/preorder-now.liquid`). This allows the browser to parse HTML without blocking, drastically reducing Total Blocking Time (TBT).
+
 ## Accessibility Fixes (Agentic Browsing)
 - **Discernible Text on Slider Links**: Added `aria-label` to `.hero__slide-link` in `sections/slideshow.liquid` and `snippets/page-block-image-hero.liquid` to ensure screen readers can read where the slide links to.
 - **Slick Slider ARIA Fixes**: Disabled slick slider's automatic accessibility attributes globally by setting `accessibility: false` in `assets/theme.js.liquid`. This prevents slick from injecting invalid ARIA states (`role="presentation"` with `aria-selected`, missing accessible names on `listbox`).
@@ -32,6 +38,10 @@ During testing, you may encounter the following console errors/warnings in Light
 None of the above errors affect the theme's code, performance, or real-world user experience.
 
 ## Git Commit History
+- `f413e74` - Fix product image layout shift by removing lazyload class from eager images (2026-08-30)
+- `872cd63` - Defer BSS configdata scripts (2026-08-29)
+- `dfc0524` - Fix slideshow first image visibility by adding lazyloaded class (2026-08-29)
+- `599eaa3` - Implement performance optimizations: LCP eager load, CSS preloads, and app deferral (2026-08-29)
 - `2cace36` - Add MutationObserver for slick-cloned aria-hidden fix (2026-08-29)
 - `507bf2a` - Fix slick cloned items retaining aria-hidden attribute using removeAttr (2026-08-29)
 - `8b998d7` - Fix slick ARIA hidden focusable elements and add photo zoom aria-label (2026-08-29)
