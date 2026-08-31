@@ -4,6 +4,7 @@
 - **CSS Preloading & Resource Hints**: Added `<link rel="preload" as="style">` for `theme.scss.css` and `<link rel="preconnect">` for Shopify CDN in `layout/theme.liquid` to improve the critical rendering path.
 - **Header Logo LCP**: Added `loading="eager"` and `fetchpriority="high"` to both desktop, mobile, and inverted logo images in `snippets/header-logo-block.liquid` to ensure the logo renders immediately.
 - **Slideshow LCP**: Updated `sections/slideshow.liquid` to apply `loading="eager"`, `fetchpriority="high"`, and standard `srcset` to the very first slide image, bypassing lazysizes for the critical above-the-fold content on the homepage.
+- **Promo Grid LCP Fix**: Updated `snippets/promo-grid.liquid` to eager load the first 2 promotional images, fixing Lighthouse "LCP request discovery" warnings caused by lazysizes.
 - **App Script Deferral**: Appended `defer="defer"` to the heaviest third-party synchronous scripts (BSS Product Labels in `snippets/bss-product-label-js.liquid` and Preorder Now in `snippets/preorder-now.liquid`). This allows the browser to parse HTML without blocking, drastically reducing Total Blocking Time (TBT).
 
 ## Accessibility Fixes (Agentic Browsing)
